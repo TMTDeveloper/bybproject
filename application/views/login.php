@@ -9,11 +9,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="theme-color" content="#4679bd">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<link rel="stylesheet" href="assets/css/hidep.css">
-	<link rel="stylesheet" href="assets/css/loginfreshv4.css" type="text/css" media="all">
+	<link rel="stylesheet" href="assets/login/css/hidep.css">
+	<link rel="stylesheet" href="assets/login/css/loginfreshv4.css" type="text/css" media="all">
 	<link rel="stylesheet" href="assets/alte/bower_components/font-awesome/css/font-awesome.min.css">
-	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/js/login-bg.js"></script>
+	<script type="text/javascript" src="assets/login/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/login/js/login-bg.js"></script>
 </head>
 
 <body>
@@ -59,9 +59,9 @@
 	</div>
 
 	<!-- including the jQuery dependency -->
-	<script src="assets/js/bottom/jquery.min.js"></script>
+	<script src="assets/login/js/bottom/jquery.min.js"></script>
 	<!-- including the plugin -->
-	<script src="assets/js/bottom/hideShowPassword.js"></script>
+	<script src="assets/login/js/bottom/hideShowPassword.js"></script>
 	<script>
 		$('#show-password').change(function () {
 			$('#password').hideShowPassword($(this).prop('checked'));
