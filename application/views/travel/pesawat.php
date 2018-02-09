@@ -7,8 +7,8 @@
     <small>Ipsum</small>
     </h1>
     <ol class="breadcrumb">
-    <li><a href="#"><i class="fa fa-home"></i> Menu</a></li>
-    <li><a href="#">Sub Menu</a></li>
+    <li><a href="#"><i class="fa fa-suitcase"></i> Travel</a></li>
+    <li><a href="#">Pesawat</a></li>
     <!-- <li class="active">Blank page</li> -->
     </ol>
 </section>
@@ -19,7 +19,7 @@
     <!-- Default box -->
     <div class="box">
     <div class="box-header with-border">
-        <h3 class="box-title">Title</h3>
+        <h3 class="box-title">Pesawat</h3>
 
         <div class="box-tools pull-right">
         <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip"
