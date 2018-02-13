@@ -28,16 +28,16 @@
     </div>
 
     
+    <form action="#" method="get">
     <div class="box-body">
-    <form action="#" method="get" class>
         <div class="input-group">
             <span class="input-group-addon"><i class="fa fa-mobile-phone"></i></span>
             <input type="text" class="form-control" placeholder="Nomor Telepon">
         </div>
-    </form>
-    <!-- /.form -->
     </div>
     <!-- /.box-body -->
+    </form>
+    <!-- /.form -->
     
 
     <div class="box-footer">
