@@ -24,13 +24,19 @@ class Model extends CI_Model {
     {
         $username=$u;
         $password=$p;
-        $login=$this->db->get_where('table_login', array ('username'=>$username,'password'=>$password));
+        $login=$this->db->get_where('m_user', array ('USER_NAME'=>$username,'PASSWORD'=>$password));
         if (count($login->result())>0) {
             foreach ($login->result() as $key) {
+            // echo "<pre>";
+            //     print_r($login);
+            // echo "</pre>";
+            // exit();
             $sess['status']='login';
-            $sess['name']=$key->name;
-            $sess['username']=$key->username;
+            // $sess['name']=$key->name;
+            // $sess['username']=$key->username;
+            $sess['company']=$key->COMPANY_ID;
             $this->session->set_userdata($sess);     
+            // echo '<pre>'; print_r($this->session->all_userdata());exit;
         }
         header('location:'.base_url().'First_controller/premain');
     }else {
