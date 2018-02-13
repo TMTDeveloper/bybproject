@@ -1,2 +1,2 @@
-user : admin
-pass : adminjuga
+user : user1
+pass : 12345

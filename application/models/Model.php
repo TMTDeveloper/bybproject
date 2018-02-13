@@ -23,7 +23,7 @@ class Model extends CI_Model {
     public function login($u,$p)
     {
         $username=$u;
-        $password=md5($p);
+        $password=$p;
         $login=$this->db->get_where('table_login', array ('username'=>$username,'password'=>$password));
         if (count($login->result())>0) {
             foreach ($login->result() as $key) {
@@ -32,7 +32,7 @@ class Model extends CI_Model {
             $sess['username']=$key->username;
             $this->session->set_userdata($sess);     
         }
-        header('location:'.base_url().'First_controller');
+        header('location:'.base_url().'First_controller/premain');
     }else {
         header('location:'.base_url().'Welcome');
     }

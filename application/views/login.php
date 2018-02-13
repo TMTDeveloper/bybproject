@@ -40,15 +40,12 @@
 				<input type="checkbox" id="show-password">
 				<label for="show-password">Show password</label>
 			</div>
+
 			<div class="aitssendbuttonw3ls">
 				<input type="submit" value="Log In" id="buttonlogin">
 				<div class="clear"></div>
-				<br>
-				<p>Lupa Password?
-                    <a href="#" target="_blank"><b>Klik disini</b></a>
-					<span style=""> | <a href="#"><b>Daftar Gratis!</b></a></span>
-				</p>
 			</div>
+			
 		</form>
 	</div>
 

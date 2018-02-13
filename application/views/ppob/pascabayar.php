@@ -21,17 +21,17 @@
 
     <div class="box-header with-border">
         <h3 class="box-title">Pascabayar</h3>
-        <div class="box-tools pull-right">
+        <!-- <div class="box-tools pull-right">
         <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
         <button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove"><i class="fa fa-times"></i></button>
-        </div>        
+        </div> -->   
     </div>
 
     <form class="form-horizontal">
     <div class="box-body">
     
-         <div class="form-group">
-            <label class="col-sm-2 control-label">Field 1</label>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Product ID</label>
             <div class="col-sm-10">
             <select class="form-control" style="width: 70%;">
             <option selected="selected">Pilih</option>
@@ -43,16 +43,9 @@
         </div>
 
         <div class="form-group">
-            <label for="inputKodeArea" class="col-sm-2 control-label">Field 2</label>
-            <div class="col-sm-10" style="width: 59%;">
-            <input type="email" class="form-control" id="inputKodeArea" placeholder="00000">
-            </div>
-        </div>
-        
-        <div class="form-group">
-            <label for="inputNoTel" class="col-sm-2 control-label">Field 3</label>
-            <div class="col-sm-10" style="width: 59%;">
-            <input type="password" class="form-control" id="inputNoTel" placeholder="000000000000">
+            <label for="inputKodeArea" class="col-sm-2 control-label">ID Pelanggan</label>
+            <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputKodeArea" placeholder="00000"  style="width: 70%;">
             </div>
         </div>
         
@@ -60,7 +53,20 @@
     <!-- /.box-body -->
 
     <div class="box-footer">
-    Footer
+    <div class="row">
+
+        <div class="col-xs-2"></div>
+
+        <div class="col-xs-2">
+        <button type="submit" class="btn btn-default">reset</button>
+        </div>
+
+        <div class="col-xs-1">
+        <button type="submit" class="btn btn-info">OK</button>
+        </div>
+
+    </div>
+    <!-- /.row -->
     </div>
     <!-- /.box-footer-->
 
