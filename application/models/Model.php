@@ -38,7 +38,7 @@ class Model extends CI_Model {
             $this->session->set_userdata($sess);     
             // echo '<pre>'; print_r($this->session->all_userdata());exit;
         }
-        header('location:'.base_url().'First_controller/premain');
+        header('location:'.base_url().'Premain_controller');
     }else {
         header('location:'.base_url().'Welcome');
     }
@@ -63,7 +63,7 @@ public function c_phone($s)
             }
             header('location:'.base_url().'home_controller');
         }else {
-            header('location:'.base_url().'First_controller/premain');
+            header('location:'.base_url().'Premain_controller');
         }
     }
     
