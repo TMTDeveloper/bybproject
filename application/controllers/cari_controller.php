@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class cari_controller extends CI_Controller {
 
-    // ini komen bagus
+    // ini komen bagus banget loh
 
     public function cariaction()
     {        
