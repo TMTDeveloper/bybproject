@@ -43,4 +43,28 @@ class Model extends CI_Model {
         header('location:'.base_url().'Welcome');
     }
 }
+
+public function cari($s)
+        {
+            $search=$s;
+            $cari=$this->db->get_where('m_customer', array ('CUSTOMER_PHONE'=>$search));
+            if (count($cari->result())>0) {
+                foreach ($cari->result() as $key) {
+                // echo "<pre>";
+                //     print_r($login);
+                // echo "</pre>";
+                // exit();
+                $sess['status']='premain';
+                // $sess['name']=$key->name;
+                // $sess['username']=$key->username;
+                $sess['company']=$key->COMPANY_ID;
+                $this->session->set_userdata($sess);     
+                // echo '<pre>'; print_r($this->session->all_userdata());exit;
+            }
+            header('location:'.base_url().'home_controller');
+        }else {
+            header('location:'.base_url().'First_controller/premain');
+        }
+    }
+    
 }

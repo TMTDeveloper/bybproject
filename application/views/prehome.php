@@ -28,23 +28,24 @@
     </div>
 
     
-    <form action="#" method="get">
+    <form action="<?php echo base_url() ?>cari_controller/cariaction" method="post">
     <div class="box-body">
         <div class="input-group">
             <span class="input-group-addon"><i class="fa fa-mobile-phone"></i></span>
-            <input type="text" class="form-control" placeholder="Nomor Telepon">
+            <input type="text" name="search" class="form-control" placeholder="Nomor Telepon">
         </div>
     </div>
     <!-- /.box-body -->
+    <div class="box-footer">
+                    <input type="submit" value="Log In" id="buttonlogin">
+    <a href="<?php echo base_url('First_controller/daftarcustomer') ?>" class="btn btn-warning pull-right">Daftar</a>
+    </div>
+    <!-- /.box-footer-->
     </form>
     <!-- /.form -->
     
 
-    <div class="box-footer">
-    <a href="<?php echo base_url('First_controller') ?>" class="btn btn-info">Cari</a>
-    <a href="<?php echo base_url('First_controller/daftarcustomer') ?>" class="btn btn-warning pull-right">Daftar</a>
-    </div>
-    <!-- /.box-footer-->
+    
     
     </div>
     <!-- /.box -->

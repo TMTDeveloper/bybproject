@@ -8,7 +8,7 @@ class First_controller extends CI_Controller {
         parent::__construct();
         $st=$this->session->userdata('status');
         if ($st!=='login'){
-            header('location:'.base_url().'welcome');
+            header('location:'.base_url().'First_controller/premain');
         }
 	}
 	public function premain()
