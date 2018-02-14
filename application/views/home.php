@@ -27,6 +27,7 @@
         </div> -->
     </div>
 
+
     
     <div class="box-body">
     <form action="#" method="get" class>
@@ -34,31 +35,31 @@
         <label>Nama</label>
         <div class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-            <input type="text" class="form-control" name="namaCustomer" id="namaCustomer">
+            <input type="text" class="form-control" name="namaCustomer" value="<?php echo strtoupper($cust_name)?>" id="namaCustomer" disabled>
         </div>
 <br>
         <label>Nomor KTP</label>
         <div class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-barcode"></i></span>
-            <input type="text" class="form-control" name="ktpCustomer" id="ktpCustomer">
+            <input type="text" class="form-control" value="<?php echo $cust_nat_id?>" name="ktpCustomer" id="ktpCustomer" disabled>
         </div>
 <br>
         <label>Nomor Telepon</label>
         <div class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-phone"></i></span>
-            <input type="text" class="form-control" name="notelCustomer" id="notelCustomer">
+            <input type="text" class="form-control" value="<?php echo $cust_phone?>" name="notelCustomer" id="notelCustomer" disabled>
         </div>
 <br>
         <label>E-mail</label>
         <div class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-            <input type="text" class="form-control" name="emailCustomer" id="emailCustomer">
+            <input type="text" class="form-control" value="<?php echo strtoupper($cust_email)?>" name="emailCustomer" id="emailCustomer" disabled>
         </div>
 <br>
         <label>Nomor Rekening</label>
         <div class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-credit-card"></i></span>
-            <input type="text" class="form-control" name="norekCustomer" id="norekCustomer">
+            <input type="text" class="form-control" value="<?php echo $cust_rek?>" name="norekCustomer" id="norekCustomer" disabled>
         </div>
             
     </form>
@@ -68,7 +69,7 @@
     
 
     <div class="box-footer">
-    <a href="<?php echo base_url('First_controller') ?>" class="btn btn-warning">Ubah Data</a>
+    <!-- <a href="<?php echo base_url('First_controller') ?>" class="btn btn-warning">Ubah Data</a> -->
     </div>
     <!-- /.box-footer-->
     

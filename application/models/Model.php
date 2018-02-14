@@ -54,11 +54,15 @@ public function c_phone($s)
                 //     print_r($login);
                 // echo "</pre>";
                 // exit();
-                $sess['status']='premain';
-                // $sess['name']=$key->name;
-                // $sess['username']=$key->username;
-                $sess['company']=$key->COMPANY_ID;
-                $this->session->set_userdata($sess);     
+                // $sess['status']='premain';
+                $sess['cust_name']=$key->CUSTOMER_NAME;
+                $sess['cust_nat_id']=$key->CUSTOMER_NAT_ID;
+                $sess['cust_phone']=$key->CUSTOMER_PHONE;
+                $sess['cust_email']=$key->CUSTOMER_EMAIL;
+                // $sess['cust_email']=$key->CUSTOMER_EMAIL;
+                $sess['cust_rek']=$key->NO_REKENING;
+                // $sess['company']=$key->COMPANY_ID;
+                $this->session->set_userdata($sess);
                 // echo '<pre>'; print_r($this->session->all_userdata());exit;
             }
             header('location:'.base_url().'home_controller');
@@ -66,5 +70,9 @@ public function c_phone($s)
             header('location:'.base_url().'Premain_controller');
         }
     }
+
+public function data($d){
+      $rows = $this->db->query("SELECT * FROM m_customer where CUSTOMER_PHONE=".$this->session->id."'")->row_array();            
     
+    }
 }

@@ -38,7 +38,7 @@
     <!-- /.box-body -->
     <div class="box-footer">
                     <input type="submit" value="search" id="buttonlogin">
-    <a href="<?php echo base_url('First_controller/daftarcustomer') ?>" class="btn btn-warning pull-right">Daftar</a>
+    <a href="<?php echo base_url('Register_controller') ?>" class="btn btn-warning pull-right">Daftar</a>
     </div>
     <!-- /.box-footer-->
     </form>
