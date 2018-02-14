@@ -28,7 +28,7 @@
     </div>
 
     
-    <form action="<?php echo base_url() ?>cari_controller/cariaction" method="post">
+    <form action="<?php echo base_url() ?>C_phone_controller/c_phoneaction" method="post">
     <div class="box-body">
         <div class="input-group">
             <span class="input-group-addon"><i class="fa fa-mobile-phone"></i></span>
@@ -37,7 +37,7 @@
     </div>
     <!-- /.box-body -->
     <div class="box-footer">
-                    <input type="submit" value="Log In" id="buttonlogin">
+                    <input type="submit" value="search" id="buttonlogin">
     <a href="<?php echo base_url('First_controller/daftarcustomer') ?>" class="btn btn-warning pull-right">Daftar</a>
     </div>
     <!-- /.box-footer-->

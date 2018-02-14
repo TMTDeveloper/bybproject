@@ -44,12 +44,12 @@ class Model extends CI_Model {
     }
 }
 
-public function cari($s)
+public function c_phone($s)
         {
             $search=$s;
-            $cari=$this->db->get_where('m_customer', array ('CUSTOMER_PHONE'=>$search));
-            if (count($cari->result())>0) {
-                foreach ($cari->result() as $key) {
+            $c_phone=$this->db->get_where('m_customer', array ('CUSTOMER_PHONE'=>$search));
+            if (count($c_phone->result())>0) {
+                foreach ($c_phone->result() as $key) {
                 // echo "<pre>";
                 //     print_r($login);
                 // echo "</pre>";
