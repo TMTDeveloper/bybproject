@@ -3,8 +3,8 @@
 <!-- Content Header (Page header) -->
 <section class="content-header">
     <h1>
-    Lorem
-    <small>Ipsum</small>
+    Sistem
+    <small>Transaksi</small>
     </h1>
     <ol class="breadcrumb">
     <li><a href="#"><i class="fa fa-suitcase"></i> Travel</a></li>

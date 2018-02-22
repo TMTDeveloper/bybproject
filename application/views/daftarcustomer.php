@@ -3,8 +3,8 @@
 <!-- Content Header (Page header) -->
 <section class="content-header">
     <h1>
-    Home
-    <small>Desciption</small>
+    Sistem
+    <small>Transaksi</small>
     </h1>
     <ol class="breadcrumb">
     <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
@@ -27,7 +27,7 @@
         </div> -->
     </div>
 
-    <form action="<?php echo base_url() ?>First_controller/customerbaru" method="post">
+    <form action="<?php echo base_url() ?>Register_controller/customerbaru" method="post">
     <div class="box-body">
         
         <label>Nama</label>

@@ -27,16 +27,12 @@ class Model extends CI_Model {
         $login=$this->db->get_where('m_user', array ('USER_NAME'=>$username,'PASSWORD'=>$password));
         if (count($login->result())>0) {
             foreach ($login->result() as $key) {
-            // echo "<pre>";
-            //     print_r($login);
-            // echo "</pre>";
-            // exit();
             $sess['status']='login';
-            // $sess['name']=$key->name;
-            // $sess['username']=$key->username;
             $sess['company']=$key->COMPANY_ID;
+            // $sess['cucur']=$r;
             $this->session->set_userdata($sess);     
-            // echo '<pre>'; print_r($this->session->all_userdata());exit;
+            // print_r($sess); // seharusnya Array ( [status] => login [company] => BYB ) 1
+            // exit;
         }
         header('location:'.base_url().'Premain_controller');
     }else {
@@ -50,20 +46,34 @@ public function c_phone($s)
             $c_phone=$this->db->get_where('m_customer', array ('CUSTOMER_PHONE'=>$search));
             if (count($c_phone->result())>0) {
                 foreach ($c_phone->result() as $key) {
-                // echo "<pre>";
-                //     print_r($login);
-                // echo "</pre>";
-                // exit();
-                // $sess['status']='premain';
+                
+                // $sess['companyID']=$key->COMPANY_ID;
+                $sess['cust_id']=$key->CUSTOMER_ID;
                 $sess['cust_name']=$key->CUSTOMER_NAME;
                 $sess['cust_nat_id']=$key->CUSTOMER_NAT_ID;
                 $sess['cust_phone']=$key->CUSTOMER_PHONE;
                 $sess['cust_email']=$key->CUSTOMER_EMAIL;
-                // $sess['cust_email']=$key->CUSTOMER_EMAIL;
                 $sess['cust_rek']=$key->NO_REKENING;
-                // $sess['company']=$key->COMPANY_ID;
+                // sampai sini membuat session untuk menampilkan data di home
+                    // print_r($sess);
+                    // exit();
+                $this->load->helper('string');
+                $sess['cust_token']=random_string('alnum', 20);
+                // generate random token
+
                 $this->session->set_userdata($sess);
-                // echo '<pre>'; print_r($this->session->all_userdata());exit;
+                // membuat session data
+                    // echo print_r($sess);
+                    // exit;
+                
+                $sess = $this->session->userdata; // supaya session bisa dipanggil
+                $data['COMPANY_ID']=$sess['company']; 
+                $data['CUSTOMER_ID']=$sess['cust_id']; 
+                $data['TOKEN_ID']=$sess['cust_token']; 
+                    // echo print_r($data);
+                    // exit;
+                $this->Model->insert('t_customer_token',$data);
+                // memasukan record ke dalam database, table 't_customer_token'
             }
             header('location:'.base_url().'home_controller');
         }else {

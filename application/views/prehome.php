@@ -3,8 +3,8 @@
 <!-- Content Header (Page header) -->
 <section class="content-header">
     <h1>
-    Home
-    <small>Desciption</small>
+    Sistem
+    <small>Transaksi</small>
     </h1>
     <ol class="breadcrumb">
     <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
@@ -32,12 +32,12 @@
     <div class="box-body">
         <div class="input-group">
             <span class="input-group-addon"><i class="fa fa-mobile-phone"></i></span>
-            <input type="text" name="search" class="form-control" placeholder="Nomor Telepon">
+            <input type="text" name="search" class="form-control" placeholder="Nomor Telepon" autocomplete="off">
         </div>
     </div>
     <!-- /.box-body -->
     <div class="box-footer">
-                    <input type="submit" value="search" id="buttonlogin">
+    <input type="submit" class="btn btn-info" value="search" id="buttonlogin">
     <a href="<?php echo base_url('Register_controller') ?>" class="btn btn-warning pull-right">Daftar</a>
     </div>
     <!-- /.box-footer-->

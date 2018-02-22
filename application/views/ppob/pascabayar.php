@@ -3,8 +3,8 @@
 <!-- Content Header (Page header) -->
 <section class="content-header">
     <h1>
-    Lorem
-    <small>Ipsum</small>
+    Sistem
+    <small>Transaksi</small>
     </h1>
     <ol class="breadcrumb">
     <li><a href="#"><i class="fa fa-credit-card"></i> PPOB</a></li>
@@ -35,9 +35,9 @@
             <div class="col-sm-10">
             <select class="form-control" style="width: 70%;">
             <option selected="selected">Pilih</option>
-            <option>List 1</option>
-            <option>List 2</option>
-            <option>List 3</option>
+            <?php foreach($product_ids as $product) { ?>
+                <option value="<?php echo $product->PRODUCT_ID; ?>"><?php echo $product->PRODUCT_ID; ?></option>
+            <?php } ?>
             </select>
             </div>
         </div>

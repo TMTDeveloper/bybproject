@@ -6,42 +6,56 @@ class Sidebar_controller extends CI_Controller {
 	// side bar menu PPOB *****************************************
 	public function telkom()
     {
+		$productIDS = $this->db->query("SELECT * FROM m_list_produk WHERE SUBKATEGORI_ID = 'TELKOM'")->result();
+		$data['product_ids'] = $productIDS;
 		$data['content']='ppob/telkom';
 		$data['sidebar']='sidebar';
-        $this->load->view('main',$data);
+		$this->load->view('main',$data);
 	}
 	public function pascabayar()
     {
+		$productIDS = $this->db->query("SELECT * FROM m_list_produk WHERE SUBKATEGORI_ID = 'PASCABAYAR'")->result();
+		$data['product_ids'] = $productIDS;
 		$data['content']='ppob/pascabayar';
 		$data['sidebar']='sidebar';
         $this->load->view('main',$data);
 	}
 	public function tv()
     {
+		$productIDS = $this->db->query("SELECT * FROM m_list_produk WHERE SUBKATEGORI_ID = 'TV'")->result();	
+		$data['product_ids'] = $productIDS;
 		$data['content']='ppob/tv';
 		$data['sidebar']='sidebar';
         $this->load->view('main',$data);
 	}
 	public function finance()
     {
+		$productIDS = $this->db->query("SELECT * FROM m_list_produk WHERE SUBKATEGORI_ID = 'FINANCE'")->result();
+		$data['product_ids'] = $productIDS;
 		$data['content']='ppob/finance';
 		$data['sidebar']='sidebar';
         $this->load->view('main',$data);
 	}
 	public function pdam()
     {
+		$productIDS = $this->db->query("SELECT * FROM m_list_produk WHERE SUBKATEGORI_ID = 'PDAM'")->result();
+		$data['product_ids'] = $productIDS;
 		$data['content']='ppob/pdam';
 		$data['sidebar']='sidebar';
         $this->load->view('main',$data);
 	}
 	public function asuransi()
     {
+		$productIDS = $this->db->query("SELECT * FROM m_list_produk WHERE SUBKATEGORI_ID = 'ASURANSI'")->result();
+		$data['product_ids'] = $productIDS;
 		$data['content']='ppob/asuransi';
 		$data['sidebar']='sidebar';
         $this->load->view('main',$data);
 	}
 	public function pln()
     {
+		$productIDS = $this->db->query("SELECT * FROM m_list_produk WHERE SUBKATEGORI_ID = 'PLN'")->result();
+		$data['product_ids'] = $productIDS;
 		$data['content']='ppob/pln';
 		$data['sidebar']='sidebar';
         $this->load->view('main',$data);
