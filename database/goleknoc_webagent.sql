@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 13, 2018 at 12:03 PM
+-- Generation Time: Feb 24, 2018 at 01:07 PM
 -- Server version: 10.1.29-MariaDB
 -- PHP Version: 7.2.0
 
@@ -30,7 +30,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `m_customer` (
   `COMPANY_ID` varchar(20) NOT NULL,
-  `CUSTOMER_ID` varchar(20) NOT NULL,
+  `CUSTOMER_ID` int(11) NOT NULL,
   `CUSTOMER_EMAIL` varchar(100) NOT NULL,
   `CUSTOMER_PHONE` varchar(20) NOT NULL,
   `CUSTOMER_NAME` varchar(100) NOT NULL,
@@ -50,7 +50,7 @@ CREATE TABLE `m_customer` (
 --
 
 INSERT INTO `m_customer` (`COMPANY_ID`, `CUSTOMER_ID`, `CUSTOMER_EMAIL`, `CUSTOMER_PHONE`, `CUSTOMER_NAME`, `TYPE_CUSTOMER`, `CUSTOMER_NAT_ID`, `NO_REKENING`, `USER_CREATE`, `DATE_CREATE`, `TIME_CREATE`, `USER_UPDATE`, `DATE_UPDATE`, `TIME_UPDATE`) VALUES
-('', '', 'deni@emang', '0821', 'deni', '', '9966', '134', '', '0000-00-00', '00:00:00', '', '0000-00-00', '00:00:00');
+('BYB', 14, 'zenhuw@mank', '087', 'reza', '', '9988', '174', '', '0000-00-00', '00:00:00', '', '0000-00-00', '00:00:00');
 
 -- --------------------------------------------------------
 
@@ -230,7 +230,7 @@ CREATE TABLE `m_submenu_user` (
 
 CREATE TABLE `m_user` (
   `COMPANY_ID` varchar(20) NOT NULL,
-  `USER_ID` varchar(20) NOT NULL,
+  `USER_ID` int(11) NOT NULL,
   `USER_NAME` varchar(100) NOT NULL,
   `PASSWORD` varchar(20) NOT NULL,
   `TYPE_USER` varchar(10) NOT NULL,
@@ -247,27 +247,7 @@ CREATE TABLE `m_user` (
 --
 
 INSERT INTO `m_user` (`COMPANY_ID`, `USER_ID`, `USER_NAME`, `PASSWORD`, `TYPE_USER`, `DATE_CREATE`, `TIME_CREATE`, `USER_CREATE`, `DATE_UPDATE`, `TIME_UPDATE`, `USER_UPDATE`) VALUES
-('BYB', '1', 'user1', '12345', '', '0000-00-00', '00:00:00', '', '0000-00-00', '00:00:00', '');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `table_login`
---
-
-CREATE TABLE `table_login` (
-  `id` int(11) NOT NULL,
-  `name` varchar(20) NOT NULL,
-  `username` varchar(20) NOT NULL,
-  `password` varchar(20) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `table_login`
---
-
-INSERT INTO `table_login` (`id`, `name`, `username`, `password`) VALUES
-(1, 'user1', 'user1', '12345');
+('BYB', 1, 'user1', 'user1', '', '0000-00-00', '00:00:00', '', '0000-00-00', '00:00:00', '');
 
 -- --------------------------------------------------------
 
@@ -277,9 +257,9 @@ INSERT INTO `table_login` (`id`, `name`, `username`, `password`) VALUES
 
 CREATE TABLE `t_customer_ppob_inquiry_req` (
   `COMPANY_ID` varchar(20) NOT NULL,
-  `USER_ID` varchar(20) NOT NULL,
+  `USER_ID` int(11) NOT NULL,
   `CUSTOMER_ID` varchar(20) NOT NULL,
-  `SESSION_ID` varchar(250) NOT NULL,
+  `TOKEN_ID` varchar(250) NOT NULL,
   `TRANS_INQ_ID` varchar(20) NOT NULL,
   `CATEGORY_ID` varchar(20) NOT NULL,
   `SUB_CATEGORY_ID` varchar(20) NOT NULL,
@@ -298,34 +278,41 @@ CREATE TABLE `t_customer_ppob_inquiry_req` (
 --
 
 CREATE TABLE `t_customer_ppob_payment_req` (
-  `COMPANY_ID` int(20) NOT NULL,
-  `USER_ID` int(20) NOT NULL,
-  `CUSTOMER_ID` int(20) NOT NULL,
-  `SESSION_ID` int(250) NOT NULL,
-  `TRANS_PAY_ID` int(20) NOT NULL,
-  `TYPE_TRANSACTION` int(10) NOT NULL,
-  `CATEGORY_ID` int(20) NOT NULL,
-  `PRODUCT_ID` int(20) NOT NULL,
-  `CUSTOMER_REQ_ID` int(30) NOT NULL,
+  `COMPANY_ID` int(11) NOT NULL,
+  `USER_ID` int(11) NOT NULL,
+  `CUSTOMER_ID` varchar(20) NOT NULL,
+  `TOKEN_ID` varchar(250) NOT NULL,
+  `TRANS_PAY_ID` varchar(20) NOT NULL,
+  `TYPE_TRANSACTION` varchar(10) NOT NULL,
+  `CATEGORY_ID` varchar(20) NOT NULL,
+  `PRODUCT_ID` varchar(20) NOT NULL,
+  `CUSTOMER_REQ_ID` varchar(30) NOT NULL,
   `DATETIME_TRANSACTION` datetime NOT NULL,
   `NOMINAL_TRANSACTON` int(11) NOT NULL,
-  `STATUS` int(10) NOT NULL,
-  `REF_NO` int(50) NOT NULL
+  `STATUS` varchar(10) NOT NULL,
+  `REF_NO` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `t_customer_session`
+-- Table structure for table `t_customer_token`
 --
 
-CREATE TABLE `t_customer_session` (
+CREATE TABLE `t_customer_token` (
   `COMPANY_ID` varchar(20) NOT NULL,
-  `CUSTOMER_ID` varchar(20) NOT NULL,
-  `SESSION_ID` varchar(250) NOT NULL,
+  `CUSTOMER_ID` int(11) NOT NULL,
+  `TOKEN_ID` varchar(250) NOT NULL,
   `START_DATETIME` datetime NOT NULL,
   `END_DATETIME` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `t_customer_token`
+--
+
+INSERT INTO `t_customer_token` (`COMPANY_ID`, `CUSTOMER_ID`, `TOKEN_ID`, `START_DATETIME`, `END_DATETIME`) VALUES
+('BYB', 14, 'DzMQepiVt1Th0RkroJAv', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
 
 --
 -- Indexes for dumped tables
@@ -335,65 +322,81 @@ CREATE TABLE `t_customer_session` (
 -- Indexes for table `m_customer`
 --
 ALTER TABLE `m_customer`
-  ADD PRIMARY KEY (`COMPANY_ID`,`CUSTOMER_ID`);
+  ADD PRIMARY KEY (`CUSTOMER_ID`),
+  ADD UNIQUE KEY `COMPANY_ID_CUSTOMER_ID` (`COMPANY_ID`,`CUSTOMER_ID`);
 
 --
 -- Indexes for table `m_list_produk`
 --
 ALTER TABLE `m_list_produk`
-  ADD PRIMARY KEY (`COMPANY_ID`,`KATEGORI_ID`,`SUBKATEGORI_ID`,`PRODUCT_ID`,`SUBPRODUCT_ID`,`PRODUCT_CODE`);
+  ADD UNIQUE KEY `COMPANY_ID` (`COMPANY_ID`,`KATEGORI_ID`,`SUBKATEGORI_ID`,`PRODUCT_ID`,`SUBPRODUCT_ID`,`PRODUCT_CODE`);
 
 --
 -- Indexes for table `m_menu_user`
 --
 ALTER TABLE `m_menu_user`
-  ADD PRIMARY KEY (`COMPANY_ID`,`USER_ID`,`MENU_ID`);
+  ADD UNIQUE KEY `COMPANY_ID` (`COMPANY_ID`,`USER_ID`,`MENU_ID`);
 
 --
 -- Indexes for table `m_submenu_user`
 --
 ALTER TABLE `m_submenu_user`
-  ADD PRIMARY KEY (`COMPANY_ID`,`USER_ID`,`MENU_ID`,`SUBMENU_ID`);
+  ADD UNIQUE KEY `COMPANY_ID` (`COMPANY_ID`,`USER_ID`,`MENU_ID`,`SUBMENU_ID`);
 
 --
 -- Indexes for table `m_user`
 --
 ALTER TABLE `m_user`
-  ADD PRIMARY KEY (`COMPANY_ID`,`USER_ID`);
-
---
--- Indexes for table `table_login`
---
-ALTER TABLE `table_login`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`USER_ID`),
+  ADD UNIQUE KEY `COMPANY_ID` (`COMPANY_ID`,`USER_ID`);
 
 --
 -- Indexes for table `t_customer_ppob_inquiry_req`
 --
 ALTER TABLE `t_customer_ppob_inquiry_req`
-  ADD PRIMARY KEY (`COMPANY_ID`,`USER_ID`,`CUSTOMER_ID`,`SESSION_ID`,`TRANS_INQ_ID`);
+  ADD PRIMARY KEY (`USER_ID`),
+  ADD UNIQUE KEY `COMPANY_ID` (`COMPANY_ID`,`USER_ID`,`CUSTOMER_ID`,`TOKEN_ID`,`TRANS_INQ_ID`);
 
 --
 -- Indexes for table `t_customer_ppob_payment_req`
 --
 ALTER TABLE `t_customer_ppob_payment_req`
-  ADD PRIMARY KEY (`COMPANY_ID`,`USER_ID`,`CUSTOMER_ID`,`SESSION_ID`,`TRANS_PAY_ID`);
+  ADD PRIMARY KEY (`USER_ID`),
+  ADD UNIQUE KEY `COMPANY_ID` (`COMPANY_ID`,`USER_ID`,`CUSTOMER_ID`,`TOKEN_ID`,`TRANS_PAY_ID`);
 
 --
--- Indexes for table `t_customer_session`
+-- Indexes for table `t_customer_token`
 --
-ALTER TABLE `t_customer_session`
-  ADD PRIMARY KEY (`COMPANY_ID`,`CUSTOMER_ID`,`SESSION_ID`);
+ALTER TABLE `t_customer_token`
+  ADD UNIQUE KEY `COMPANY_ID` (`COMPANY_ID`,`CUSTOMER_ID`,`TOKEN_ID`);
 
 --
 -- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT for table `table_login`
+-- AUTO_INCREMENT for table `m_customer`
 --
-ALTER TABLE `table_login`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+ALTER TABLE `m_customer`
+  MODIFY `CUSTOMER_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+
+--
+-- AUTO_INCREMENT for table `m_user`
+--
+ALTER TABLE `m_user`
+  MODIFY `USER_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT for table `t_customer_ppob_inquiry_req`
+--
+ALTER TABLE `t_customer_ppob_inquiry_req`
+  MODIFY `USER_ID` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `t_customer_ppob_payment_req`
+--
+ALTER TABLE `t_customer_ppob_payment_req`
+  MODIFY `USER_ID` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
