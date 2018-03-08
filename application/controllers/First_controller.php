@@ -8,7 +8,7 @@ class First_controller extends CI_Controller {
         parent::__construct();
         $st=$this->session->userdata('status');
         if ($st!=='login'){
-            header('location:'.base_url().'Premain_controller');
+            header('location:'.base_url());
         }
 	}
 

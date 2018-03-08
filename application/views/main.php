@@ -102,7 +102,7 @@
 /.search form -->
 
 <!--***************************************** side bar + widgets  *****************************************-->
-<!-- (seharusnya manggil sidebar) -->
+<!-- (manggil sidebar) -->
 
 <?php $this->load->view($sidebar); ?>
       
@@ -115,6 +115,7 @@
 <!--manggil konten -->
 
 <?php $this->load->view($content); ?>
+
 
 <!--***************************************** footer ***************************************** -->
 

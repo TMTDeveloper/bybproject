@@ -1,44 +1,48 @@
-%PDF-1.4
-%‚„œ”
+%PDF-1.4%‚„œ”
 1 0 obj
-   << 
-      /Title ()
-      /Author ()
-      /Subject ()
-      /Keywords ()
-      /Creator (yExport 1.5)
-      /Producer (org.freehep.graphicsio.pdf.YPDFGraphics2D 1.5)
-      /CreationDate (D:20180213132719+07'00')
-      /ModDate (D:20180213132719+07'00')
-      /Trapped /False
-   >>
+<</Title ()
+/Creator (yExport 1.5)
+/CreationDate (D:20180213132719+07'00')
+/ModDate (D:20180305045758+07'00')
+/Author ()
+/Subject ()
+/Keywords ()
+/Producer (org.freehep.graphicsio.pdf.YPDFGraphics2D 1.5)
+/Trapped /False
+>>
 endobj
 2 0 obj
-   << 
-      /Type /Catalog
-      /Pages 3 0 R
-      /ViewerPreferences 4 0 R
-      /OpenAction [5 0 R /Fit]
-   >>
+<</OpenAction [5 0 R /Fit]
+/ViewerPreferences 4 0 R
+/Type /Catalog
+/Outlines 43 0 R
+/Pages 3 0 R
+/Metadata 45 0 R
+>>
+endobj
+3 0 obj
+<</Type /Pages
+/Resources 37 0 R
+/MediaBox [0.0000 0.0000 670.0000 1608.0000]
+/Count 1
+/Kids [5 0 R]
+>>
 endobj
 4 0 obj
-   << 
-      /FitWindow true
-      /CenterWindow false
-   >>
+<</CenterWindow false
+/FitWindow true
+>>
 endobj
 5 0 obj
-   << 
-      /Parent 3 0 R
-      /Type /Page
-      /Contents 6 0 R
-   >>
+<</Contents 6 0 R
+/Type /Page
+/Parent 3 0 R
+>>
 endobj
 6 0 obj
-   << 
-      /Length 7 0 R
-      /Filter [/ASCII85Decode /FlateDecode]
-   >>
+<</Length 150765
+/Filter [/ASCII85Decode /FlateDecode]
+>>
 stream
 Gb!9sc&OEeZ5kj\:Jid</cPbYNB7[o^kT&]^gj&\lO9dHCe5;T]ea-"'kC?&%NqCP+STF@.V@g5#31c\
 ?nhUUc[R&$p!:Cp0:575^XL6d+2@fY?ge7"pberIYOIl4?hsQkrl!El^]"#dJ,S^)SU^N$IJodfq[`M_
@@ -1881,712 +1885,585 @@ q#((ShV[f#rV\q:hcK\n^],rO^Ri`#e+:m-s7lQecf>&cYCH<8J,T+kroa4P?iS_bktdB=ci<k)^]2@S
 n:11:miNP4Od>gs@q+?W"7rcRf)PBoJ,AL#^\mc>!F:_l2#~>
 endstream
 endobj
-7 0 obj
-   150765
-endobj
 8 0 obj
-   << 
-      /FunctionType 2
-      /Domain [0.0000 1.0000]
-      /Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
-      /C0 [.90980 .93333 .96863]
-      /C1 [.71765 .78824 .89020]
-      /N 1
-   >>
+<</Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
+/N 1
+/Domain [0.0000 1.0000]
+/FunctionType 2
+/C0 [0.9098 0.9333 0.9686]
+/C1 [0.7176 0.7882 0.8902]
+>>
 endobj
 9 0 obj
-   << 
-      /Type /Pattern
-      /PatternType 2
-      /Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0]
-      /Shading
-      << 
-         /ShadingType 2
-         /ColorSpace /DeviceRGB
-         /Coords [218.00 0.0000 298.00 40.000]
-         /Domain [0.0000 1.0000]
-         /Function 8 0 R
-      >>
-   >>
+<</PatternType 2
+/Type /Pattern
+/Shading <</Function 8 0 R
+/ColorSpace /DeviceRGB
+/ShadingType 2
+/Coords [218.0000 0.0000 298.0000 40.0000]
+/Domain [0.0000 1.0000]
+>>
+/Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0000]
+>>
 endobj
 10 0 obj
-   << 
-      /Type /Pattern
-      /PatternType 2
-      /Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0]
-      /Shading
-      << 
-         /ShadingType 2
-         /ColorSpace /DeviceRGB
-         /Coords [218.00 89.000 298.00 129.00]
-         /Domain [0.0000 1.0000]
-         /Function 8 0 R
-      >>
-   >>
+<</PatternType 2
+/Type /Pattern
+/Shading <</Function 8 0 R
+/ColorSpace /DeviceRGB
+/ShadingType 2
+/Coords [218.0000 89.0000 298.0000 129.0000]
+/Domain [0.0000 1.0000]
+>>
+/Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0000]
+>>
 endobj
 11 0 obj
-   << 
-      /Type /Pattern
-      /PatternType 2
-      /Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0]
-      /Shading
-      << 
-         /ShadingType 2
-         /ColorSpace /DeviceRGB
-         /Coords [295.00 47.000 535.00 167.00]
-         /Domain [0.0000 1.0000]
-         /Function
-         << 
-            /FunctionType 3
-            /Domain [0.0000 1.0000]
-            /Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
-            /Bounds [.33333 .66667]
-            /Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
-            /Functions [8 0 R 8 0 R 8 0 R]
-         >>
-      >>
-   >>
+<</PatternType 2
+/Type /Pattern
+/Shading <</Function <</Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
+/Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
+/Functions [8 0 R 8 0 R 8 0 R]
+/Domain [0.0000 1.0000]
+/FunctionType 3
+/Bounds [0.3333 0.6667]
+>>
+/ColorSpace /DeviceRGB
+/ShadingType 2
+/Coords [295.0000 47.0000 535.0000 167.0000]
+/Domain [0.0000 1.0000]
+>>
+/Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0000]
+>>
 endobj
 12 0 obj
-   << 
-      /Type /Pattern
-      /PatternType 2
-      /Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0]
-      /Shading
-      << 
-         /ShadingType 2
-         /ColorSpace /DeviceRGB
-         /Coords [94.681 111.74 415.68 231.74]
-         /Domain [0.0000 1.0000]
-         /Function
-         << 
-            /FunctionType 3
-            /Domain [0.0000 1.0000]
-            /Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
-            /Bounds [.33333 .66667]
-            /Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
-            /Functions [8 0 R 8 0 R 8 0 R]
-         >>
-      >>
-   >>
+<</PatternType 2
+/Type /Pattern
+/Shading <</Function <</Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
+/Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
+/Functions [8 0 R 8 0 R 8 0 R]
+/Domain [0.0000 1.0000]
+/FunctionType 3
+/Bounds [0.3333 0.6667]
+>>
+/ColorSpace /DeviceRGB
+/ShadingType 2
+/Coords [94.6810 111.7400 415.6800 231.7400]
+/Domain [0.0000 1.0000]
+>>
+/Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0000]
+>>
 endobj
 13 0 obj
-   << 
-      /Type /Pattern
-      /PatternType 2
-      /Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0]
-      /Shading
-      << 
-         /ShadingType 2
-         /ColorSpace /DeviceRGB
-         /Coords [105.26 162.39 426.26 333.39]
-         /Domain [0.0000 1.0000]
-         /Function
-         << 
-            /FunctionType 3
-            /Domain [0.0000 1.0000]
-            /Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
-            /Bounds [.33333 .66667]
-            /Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
-            /Functions [8 0 R 8 0 R 8 0 R]
-         >>
-      >>
-   >>
+<</PatternType 2
+/Type /Pattern
+/Shading <</Function <</Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
+/Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
+/Functions [8 0 R 8 0 R 8 0 R]
+/Domain [0.0000 1.0000]
+/FunctionType 3
+/Bounds [0.3333 0.6667]
+>>
+/ColorSpace /DeviceRGB
+/ShadingType 2
+/Coords [105.2600 162.3900 426.2600 333.3900]
+/Domain [0.0000 1.0000]
+>>
+/Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0000]
+>>
 endobj
 14 0 obj
-   << 
-      /Type /Pattern
-      /PatternType 2
-      /Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0]
-      /Shading
-      << 
-         /ShadingType 2
-         /ColorSpace /DeviceRGB
-         /Coords [116.25 284.10 396.75 404.10]
-         /Domain [0.0000 1.0000]
-         /Function
-         << 
-            /FunctionType 3
-            /Domain [0.0000 1.0000]
-            /Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
-            /Bounds [.33333 .66667]
-            /Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
-            /Functions [8 0 R 8 0 R 8 0 R]
-         >>
-      >>
-   >>
+<</PatternType 2
+/Type /Pattern
+/Shading <</Function <</Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
+/Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
+/Functions [8 0 R 8 0 R 8 0 R]
+/Domain [0.0000 1.0000]
+/FunctionType 3
+/Bounds [0.3333 0.6667]
+>>
+/ColorSpace /DeviceRGB
+/ShadingType 2
+/Coords [116.2500 284.1000 396.7500 404.1000]
+/Domain [0.0000 1.0000]
+>>
+/Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0000]
+>>
 endobj
 15 0 obj
-   << 
-      /Type /Pattern
-      /PatternType 2
-      /Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0]
-      /Shading
-      << 
-         /ShadingType 2
-         /ColorSpace /DeviceRGB
-         /Coords [239.38 195.50 629.38 315.50]
-         /Domain [0.0000 1.0000]
-         /Function
-         << 
-            /FunctionType 3
-            /Domain [0.0000 1.0000]
-            /Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
-            /Bounds [.33333 .66667]
-            /Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
-            /Functions [8 0 R 8 0 R 8 0 R]
-         >>
-      >>
-   >>
+<</PatternType 2
+/Type /Pattern
+/Shading <</Function <</Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
+/Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
+/Functions [8 0 R 8 0 R 8 0 R]
+/Domain [0.0000 1.0000]
+/FunctionType 3
+/Bounds [0.3333 0.6667]
+>>
+/ColorSpace /DeviceRGB
+/ShadingType 2
+/Coords [239.3800 195.5000 629.3800 315.5000]
+/Domain [0.0000 1.0000]
+>>
+/Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0000]
+>>
 endobj
 16 0 obj
-   << 
-      /Type /Pattern
-      /PatternType 2
-      /Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0]
-      /Shading
-      << 
-         /ShadingType 2
-         /ColorSpace /DeviceRGB
-         /Coords [218.00 415.00 298.00 455.00]
-         /Domain [0.0000 1.0000]
-         /Function 8 0 R
-      >>
-   >>
+<</PatternType 2
+/Type /Pattern
+/Shading <</Function 8 0 R
+/ColorSpace /DeviceRGB
+/ShadingType 2
+/Coords [218.0000 415.0000 298.0000 455.0000]
+/Domain [0.0000 1.0000]
+>>
+/Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0000]
+>>
 endobj
 17 0 obj
-   << 
-      /Type /Pattern
-      /PatternType 2
-      /Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0]
-      /Shading
-      << 
-         /ShadingType 2
-         /ColorSpace /DeviceRGB
-         /Coords [429.29 281.10 750.29 401.10]
-         /Domain [0.0000 1.0000]
-         /Function
-         << 
-            /FunctionType 3
-            /Domain [0.0000 1.0000]
-            /Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
-            /Bounds [.33333 .66667]
-            /Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
-            /Functions [8 0 R 8 0 R 8 0 R]
-         >>
-      >>
-   >>
+<</PatternType 2
+/Type /Pattern
+/Shading <</Function <</Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
+/Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
+/Functions [8 0 R 8 0 R 8 0 R]
+/Domain [0.0000 1.0000]
+/FunctionType 3
+/Bounds [0.3333 0.6667]
+>>
+/ColorSpace /DeviceRGB
+/ShadingType 2
+/Coords [429.2900 281.1000 750.2900 401.1000]
+/Domain [0.0000 1.0000]
+>>
+/Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0000]
+>>
 endobj
 18 0 obj
-   << 
-      /Type /Pattern
-      /PatternType 2
-      /Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0]
-      /Shading
-      << 
-         /ShadingType 2
-         /ColorSpace /DeviceRGB
-         /Coords [218.00 485.00 298.00 525.00]
-         /Domain [0.0000 1.0000]
-         /Function 8 0 R
-      >>
-   >>
+<</PatternType 2
+/Type /Pattern
+/Shading <</Function 8 0 R
+/ColorSpace /DeviceRGB
+/ShadingType 2
+/Coords [218.0000 485.0000 298.0000 525.0000]
+/Domain [0.0000 1.0000]
+>>
+/Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0000]
+>>
 endobj
 19 0 obj
-   << 
-      /Type /Pattern
-      /PatternType 2
-      /Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0]
-      /Shading
-      << 
-         /ShadingType 2
-         /ColorSpace /DeviceRGB
-         /Coords [345.00 443.00 585.00 563.00]
-         /Domain [0.0000 1.0000]
-         /Function
-         << 
-            /FunctionType 3
-            /Domain [0.0000 1.0000]
-            /Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
-            /Bounds [.33333 .66667]
-            /Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
-            /Functions [8 0 R 8 0 R 8 0 R]
-         >>
-      >>
-   >>
+<</PatternType 2
+/Type /Pattern
+/Shading <</Function <</Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
+/Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
+/Functions [8 0 R 8 0 R 8 0 R]
+/Domain [0.0000 1.0000]
+/FunctionType 3
+/Bounds [0.3333 0.6667]
+>>
+/ColorSpace /DeviceRGB
+/ShadingType 2
+/Coords [345.0000 443.0000 585.0000 563.0000]
+/Domain [0.0000 1.0000]
+>>
+/Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0000]
+>>
 endobj
 20 0 obj
-   << 
-      /Type /Pattern
-      /PatternType 2
-      /Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0]
-      /Shading
-      << 
-         /ShadingType 2
-         /ColorSpace /DeviceRGB
-         /Coords [116.25 513.10 396.75 633.10]
-         /Domain [0.0000 1.0000]
-         /Function
-         << 
-            /FunctionType 3
-            /Domain [0.0000 1.0000]
-            /Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
-            /Bounds [.33333 .66667]
-            /Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
-            /Functions [8 0 R 8 0 R 8 0 R]
-         >>
-      >>
-   >>
+<</PatternType 2
+/Type /Pattern
+/Shading <</Function <</Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
+/Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
+/Functions [8 0 R 8 0 R 8 0 R]
+/Domain [0.0000 1.0000]
+/FunctionType 3
+/Bounds [0.3333 0.6667]
+>>
+/ColorSpace /DeviceRGB
+/ShadingType 2
+/Coords [116.2500 513.1000 396.7500 633.1000]
+/Domain [0.0000 1.0000]
+>>
+/Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0000]
+>>
 endobj
 21 0 obj
-   << 
-      /Type /Pattern
-      /PatternType 2
-      /Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0]
-      /Shading
-      << 
-         /ShadingType 2
-         /ColorSpace /DeviceRGB
-         /Coords [329.82 511.20 610.32 631.20]
-         /Domain [0.0000 1.0000]
-         /Function
-         << 
-            /FunctionType 3
-            /Domain [0.0000 1.0000]
-            /Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
-            /Bounds [.33333 .66667]
-            /Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
-            /Functions [8 0 R 8 0 R 8 0 R]
-         >>
-      >>
-   >>
+<</PatternType 2
+/Type /Pattern
+/Shading <</Function <</Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
+/Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
+/Functions [8 0 R 8 0 R 8 0 R]
+/Domain [0.0000 1.0000]
+/FunctionType 3
+/Bounds [0.3333 0.6667]
+>>
+/ColorSpace /DeviceRGB
+/ShadingType 2
+/Coords [329.8200 511.2000 610.3200 631.2000]
+/Domain [0.0000 1.0000]
+>>
+/Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0000]
+>>
 endobj
 22 0 obj
-   << 
-      /Type /Pattern
-      /PatternType 2
-      /Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0]
-      /Shading
-      << 
-         /ShadingType 2
-         /ColorSpace /DeviceRGB
-         /Coords [218.00 625.00 298.00 665.00]
-         /Domain [0.0000 1.0000]
-         /Function 8 0 R
-      >>
-   >>
+<</PatternType 2
+/Type /Pattern
+/Shading <</Function 8 0 R
+/ColorSpace /DeviceRGB
+/ShadingType 2
+/Coords [218.0000 625.0000 298.0000 665.0000]
+/Domain [0.0000 1.0000]
+>>
+/Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0000]
+>>
 endobj
 23 0 obj
-   << 
-      /Type /Pattern
-      /PatternType 2
-      /Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0]
-      /Shading
-      << 
-         /ShadingType 2
-         /ColorSpace /DeviceRGB
-         /Coords [-105.06 368.70 314.94 488.70]
-         /Domain [0.0000 1.0000]
-         /Function
-         << 
-            /FunctionType 3
-            /Domain [0.0000 1.0000]
-            /Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
-            /Bounds [.33333 .66667]
-            /Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
-            /Functions [8 0 R 8 0 R 8 0 R]
-         >>
-      >>
-   >>
+<</PatternType 2
+/Type /Pattern
+/Shading <</Function <</Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
+/Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
+/Functions [8 0 R 8 0 R 8 0 R]
+/Domain [0.0000 1.0000]
+/FunctionType 3
+/Bounds [0.3333 0.6667]
+>>
+/ColorSpace /DeviceRGB
+/ShadingType 2
+/Coords [-105.0600 368.7000 314.9400 488.7000]
+/Domain [0.0000 1.0000]
+>>
+/Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0000]
+>>
 endobj
 24 0 obj
-   << 
-      /Type /Pattern
-      /PatternType 2
-      /Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0]
-      /Shading
-      << 
-         /ShadingType 2
-         /ColorSpace /DeviceRGB
-         /Coords [213.81 577.56 819.81 697.56]
-         /Domain [0.0000 1.0000]
-         /Function
-         << 
-            /FunctionType 3
-            /Domain [0.0000 1.0000]
-            /Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
-            /Bounds [.33333 .66667]
-            /Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
-            /Functions [8 0 R 8 0 R 8 0 R]
-         >>
-      >>
-   >>
+<</PatternType 2
+/Type /Pattern
+/Shading <</Function <</Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
+/Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
+/Functions [8 0 R 8 0 R 8 0 R]
+/Domain [0.0000 1.0000]
+/FunctionType 3
+/Bounds [0.3333 0.6667]
+>>
+/ColorSpace /DeviceRGB
+/ShadingType 2
+/Coords [213.8100 577.5600 819.8100 697.5600]
+/Domain [0.0000 1.0000]
+>>
+/Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0000]
+>>
 endobj
 25 0 obj
-   << 
-      /Type /Pattern
-      /PatternType 2
-      /Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0]
-      /Shading
-      << 
-         /ShadingType 2
-         /ColorSpace /DeviceRGB
-         /Coords [218.00 695.00 298.00 735.00]
-         /Domain [0.0000 1.0000]
-         /Function 8 0 R
-      >>
-   >>
+<</PatternType 2
+/Type /Pattern
+/Shading <</Function 8 0 R
+/ColorSpace /DeviceRGB
+/ShadingType 2
+/Coords [218.0000 695.0000 298.0000 735.0000]
+/Domain [0.0000 1.0000]
+>>
+/Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0000]
+>>
 endobj
 26 0 obj
-   << 
-      /Type /Pattern
-      /PatternType 2
-      /Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0]
-      /Shading
-      << 
-         /ShadingType 2
-         /ColorSpace /DeviceRGB
-         /Coords [116.25 717.10 396.75 837.10]
-         /Domain [0.0000 1.0000]
-         /Function
-         << 
-            /FunctionType 3
-            /Domain [0.0000 1.0000]
-            /Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
-            /Bounds [.33333 .66667]
-            /Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
-            /Functions [8 0 R 8 0 R 8 0 R]
-         >>
-      >>
-   >>
+<</PatternType 2
+/Type /Pattern
+/Shading <</Function <</Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
+/Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
+/Functions [8 0 R 8 0 R 8 0 R]
+/Domain [0.0000 1.0000]
+/FunctionType 3
+/Bounds [0.3333 0.6667]
+>>
+/ColorSpace /DeviceRGB
+/ShadingType 2
+/Coords [116.2500 717.1000 396.7500 837.1000]
+/Domain [0.0000 1.0000]
+>>
+/Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0000]
+>>
 endobj
 27 0 obj
-   << 
-      /Type /Pattern
-      /PatternType 2
-      /Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0]
-      /Shading
-      << 
-         /ShadingType 2
-         /ColorSpace /DeviceRGB
-         /Coords [253.72 711.57 829.72 831.57]
-         /Domain [0.0000 1.0000]
-         /Function
-         << 
-            /FunctionType 3
-            /Domain [0.0000 1.0000]
-            /Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
-            /Bounds [.33333 .66667]
-            /Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
-            /Functions [8 0 R 8 0 R 8 0 R]
-         >>
-      >>
-   >>
+<</PatternType 2
+/Type /Pattern
+/Shading <</Function <</Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
+/Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
+/Functions [8 0 R 8 0 R 8 0 R]
+/Domain [0.0000 1.0000]
+/FunctionType 3
+/Bounds [0.3333 0.6667]
+>>
+/ColorSpace /DeviceRGB
+/ShadingType 2
+/Coords [253.7200 711.5700 829.7200 831.5700]
+/Domain [0.0000 1.0000]
+>>
+/Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0000]
+>>
 endobj
 28 0 obj
-   << 
-      /Type /Pattern
-      /PatternType 2
-      /Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0]
-      /Shading
-      << 
-         /ShadingType 2
-         /ColorSpace /DeviceRGB
-         /Coords [218.00 840.00 298.00 880.00]
-         /Domain [0.0000 1.0000]
-         /Function 8 0 R
-      >>
-   >>
+<</PatternType 2
+/Type /Pattern
+/Shading <</Function 8 0 R
+/ColorSpace /DeviceRGB
+/ShadingType 2
+/Coords [218.0000 840.0000 298.0000 880.0000]
+/Domain [0.0000 1.0000]
+>>
+/Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0000]
+>>
 endobj
 29 0 obj
-   << 
-      /Type /Pattern
-      /PatternType 2
-      /Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0]
-      /Shading
-      << 
-         /ShadingType 2
-         /ColorSpace /DeviceRGB
-         /Coords [218.00 921.00 298.00 961.00]
-         /Domain [0.0000 1.0000]
-         /Function 8 0 R
-      >>
-   >>
+<</PatternType 2
+/Type /Pattern
+/Shading <</Function 8 0 R
+/ColorSpace /DeviceRGB
+/ShadingType 2
+/Coords [218.0000 921.0000 298.0000 961.0000]
+/Domain [0.0000 1.0000]
+>>
+/Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0000]
+>>
 endobj
 30 0 obj
-   << 
-      /Type /Pattern
-      /PatternType 2
-      /Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0]
-      /Shading
-      << 
-         /ShadingType 2
-         /ColorSpace /DeviceRGB
-         /Coords [203.40 1057.2 307.40 1097.2]
-         /Domain [0.0000 1.0000]
-         /Function 8 0 R
-      >>
-   >>
+<</PatternType 2
+/Type /Pattern
+/Shading <</Function 8 0 R
+/ColorSpace /DeviceRGB
+/ShadingType 2
+/Coords [203.4000 1057.2000 307.4000 1097.2000]
+/Domain [0.0000 1.0000]
+>>
+/Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0000]
+>>
 endobj
 31 0 obj
-   << 
-      /Type /Pattern
-      /PatternType 2
-      /Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0]
-      /Shading
-      << 
-         /ShadingType 2
-         /ColorSpace /DeviceRGB
-         /Coords [116.25 1081.1 396.75 1201.1]
-         /Domain [0.0000 1.0000]
-         /Function
-         << 
-            /FunctionType 3
-            /Domain [0.0000 1.0000]
-            /Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
-            /Bounds [.33333 .66667]
-            /Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
-            /Functions [8 0 R 8 0 R 8 0 R]
-         >>
-      >>
-   >>
+<</PatternType 2
+/Type /Pattern
+/Shading <</Function <</Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
+/Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
+/Functions [8 0 R 8 0 R 8 0 R]
+/Domain [0.0000 1.0000]
+/FunctionType 3
+/Bounds [0.3333 0.6667]
+>>
+/ColorSpace /DeviceRGB
+/ShadingType 2
+/Coords [116.2500 1081.1000 396.7500 1201.1000]
+/Domain [0.0000 1.0000]
+>>
+/Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0000]
+>>
 endobj
 32 0 obj
-   << 
-      /Type /Pattern
-      /PatternType 2
-      /Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0]
-      /Shading
-      << 
-         /ShadingType 2
-         /ColorSpace /DeviceRGB
-         /Coords [253.72 1075.6 829.72 1195.6]
-         /Domain [0.0000 1.0000]
-         /Function
-         << 
-            /FunctionType 3
-            /Domain [0.0000 1.0000]
-            /Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
-            /Bounds [.33333 .66667]
-            /Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
-            /Functions [8 0 R 8 0 R 8 0 R]
-         >>
-      >>
-   >>
+<</PatternType 2
+/Type /Pattern
+/Shading <</Function <</Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
+/Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
+/Functions [8 0 R 8 0 R 8 0 R]
+/Domain [0.0000 1.0000]
+/FunctionType 3
+/Bounds [0.3333 0.6667]
+>>
+/ColorSpace /DeviceRGB
+/ShadingType 2
+/Coords [253.7200 1075.6000 829.7200 1195.6000]
+/Domain [0.0000 1.0000]
+>>
+/Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0000]
+>>
 endobj
 33 0 obj
-   << 
-      /Type /Pattern
-      /PatternType 2
-      /Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0]
-      /Shading
-      << 
-         /ShadingType 2
-         /ColorSpace /DeviceRGB
-         /Coords [138.08 1203.0 378.08 1323.0]
-         /Domain [0.0000 1.0000]
-         /Function
-         << 
-            /FunctionType 3
-            /Domain [0.0000 1.0000]
-            /Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
-            /Bounds [.33333 .66667]
-            /Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
-            /Functions [8 0 R 8 0 R 8 0 R]
-         >>
-      >>
-   >>
+<</PatternType 2
+/Type /Pattern
+/Shading <</Function <</Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
+/Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
+/Functions [8 0 R 8 0 R 8 0 R]
+/Domain [0.0000 1.0000]
+/FunctionType 3
+/Bounds [0.3333 0.6667]
+>>
+/ColorSpace /DeviceRGB
+/ShadingType 2
+/Coords [138.0800 1203.0000 378.0800 1323.0000]
+/Domain [0.0000 1.0000]
+>>
+/Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0000]
+>>
 endobj
 34 0 obj
-   << 
-      /Type /Pattern
-      /PatternType 2
-      /Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0]
-      /Shading
-      << 
-         /ShadingType 2
-         /ColorSpace /DeviceRGB
-         /Coords [138.08 1284.0 378.08 1404.0]
-         /Domain [0.0000 1.0000]
-         /Function
-         << 
-            /FunctionType 3
-            /Domain [0.0000 1.0000]
-            /Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
-            /Bounds [.33333 .66667]
-            /Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
-            /Functions [8 0 R 8 0 R 8 0 R]
-         >>
-      >>
-   >>
+<</PatternType 2
+/Type /Pattern
+/Shading <</Function <</Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
+/Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
+/Functions [8 0 R 8 0 R 8 0 R]
+/Domain [0.0000 1.0000]
+/FunctionType 3
+/Bounds [0.3333 0.6667]
+>>
+/ColorSpace /DeviceRGB
+/ShadingType 2
+/Coords [138.0800 1284.0000 378.0800 1404.0000]
+/Domain [0.0000 1.0000]
+>>
+/Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0000]
+>>
 endobj
 35 0 obj
-   << 
-      /Type /Pattern
-      /PatternType 2
-      /Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0]
-      /Shading
-      << 
-         /ShadingType 2
-         /ColorSpace /DeviceRGB
-         /Coords [138.08 1427.0 378.08 1547.0]
-         /Domain [0.0000 1.0000]
-         /Function
-         << 
-            /FunctionType 3
-            /Domain [0.0000 1.0000]
-            /Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
-            /Bounds [.33333 .66667]
-            /Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
-            /Functions [8 0 R 8 0 R 8 0 R]
-         >>
-      >>
-   >>
+<</PatternType 2
+/Type /Pattern
+/Shading <</Function <</Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
+/Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
+/Functions [8 0 R 8 0 R 8 0 R]
+/Domain [0.0000 1.0000]
+/FunctionType 3
+/Bounds [0.3333 0.6667]
+>>
+/ColorSpace /DeviceRGB
+/ShadingType 2
+/Coords [138.0800 1427.0000 378.0800 1547.0000]
+/Domain [0.0000 1.0000]
+>>
+/Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0000]
+>>
 endobj
 36 0 obj
-   << 
-      /Type /Pattern
-      /PatternType 2
-      /Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0]
-      /Shading
-      << 
-         /ShadingType 2
-         /ColorSpace /DeviceRGB
-         /Coords [138.08 1497.0 378.08 1617.0]
-         /Domain [0.0000 1.0000]
-         /Function
-         << 
-            /FunctionType 3
-            /Domain [0.0000 1.0000]
-            /Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
-            /Bounds [.33333 .66667]
-            /Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
-            /Functions [8 0 R 8 0 R 8 0 R]
-         >>
-      >>
-   >>
-endobj
-3 0 obj
-   << 
-      /Parent null
-      /Type /Pages
-      /MediaBox [0.0000 0.0000 670.00 1608.0]
-      /Resources 37 0 R
-      /Kids [5 0 R]
-      /Count 1
-   >>
-endobj
-38 0 obj
-   [/PDF /Text /ImageC]
-endobj
-39 0 obj
-   << 
-      /CyclePattern1 9 0 R
-      /CyclePattern2 10 0 R
-      /CyclePattern3 11 0 R
-      /CyclePattern4 12 0 R
-      /CyclePattern5 13 0 R
-      /CyclePattern6 14 0 R
-      /CyclePattern7 15 0 R
-      /CyclePattern8 16 0 R
-      /CyclePattern9 17 0 R
-      /CyclePattern10 18 0 R
-      /CyclePattern11 19 0 R
-      /CyclePattern12 20 0 R
-      /CyclePattern13 21 0 R
-      /CyclePattern14 22 0 R
-      /CyclePattern15 23 0 R
-      /CyclePattern16 24 0 R
-      /CyclePattern17 25 0 R
-      /CyclePattern18 26 0 R
-      /CyclePattern19 27 0 R
-      /CyclePattern20 28 0 R
-      /CyclePattern21 29 0 R
-      /CyclePattern22 30 0 R
-      /CyclePattern23 31 0 R
-      /CyclePattern24 32 0 R
-      /CyclePattern25 33 0 R
-      /CyclePattern26 34 0 R
-      /CyclePattern27 35 0 R
-      /CyclePattern28 36 0 R
-   >>
-endobj
-40 0 obj
-   << 
-      /S /Transparency
-      /CS /DeviceRGB
-      /I true
-      /K false
-   >>
-endobj
-41 0 obj
-   << 
-      /Alpha1
-      << 
-         /ca 1.0000
-         /CA 1.0000
-         /BM /Normal
-         /AIS false
-      >>
-   >>
+<</PatternType 2
+/Type /Pattern
+/Shading <</Function <</Encode [1.0000 0.0000 0.0000 1.0000 1.0000 0.0000]
+/Range [0.0000 1.0000 0.0000 1.0000 0.0000 1.0000]
+/Functions [8 0 R 8 0 R 8 0 R]
+/Domain [0.0000 1.0000]
+/FunctionType 3
+/Bounds [0.3333 0.6667]
+>>
+/ColorSpace /DeviceRGB
+/ShadingType 2
+/Coords [138.0800 1497.0000 378.0800 1617.0000]
+/Domain [0.0000 1.0000]
+>>
+/Matrix [1.0000 0.0000 0.0000 -1.0000 -9.0000 1625.0000]
+>>
 endobj
 37 0 obj
-   << 
-      /ProcSet 38 0 R
-      /Pattern 39 0 R
-      /ExtGState 41 0 R
-   >>
+<</Pattern 39 0 R
+/ExtGState 41 0 R
+/ProcSet 38 0 R
+>>
+endobj
+38 0 obj
+[/PDF /Text /ImageC]
+endobj
+39 0 obj
+<</CyclePattern1 9 0 R
+/CyclePattern2 10 0 R
+/CyclePattern3 11 0 R
+/CyclePattern4 12 0 R
+/CyclePattern5 13 0 R
+/CyclePattern6 14 0 R
+/CyclePattern7 15 0 R
+/CyclePattern8 16 0 R
+/CyclePattern9 17 0 R
+/CyclePattern10 18 0 R
+/CyclePattern11 19 0 R
+/CyclePattern12 20 0 R
+/CyclePattern13 21 0 R
+/CyclePattern14 22 0 R
+/CyclePattern15 23 0 R
+/CyclePattern16 24 0 R
+/CyclePattern17 25 0 R
+/CyclePattern18 26 0 R
+/CyclePattern19 27 0 R
+/CyclePattern20 28 0 R
+/CyclePattern21 29 0 R
+/CyclePattern22 30 0 R
+/CyclePattern23 31 0 R
+/CyclePattern24 32 0 R
+/CyclePattern25 33 0 R
+/CyclePattern26 34 0 R
+/CyclePattern27 35 0 R
+/CyclePattern28 36 0 R
+>>
+endobj
+41 0 obj
+<</Alpha1 <</ca 1.0000
+/CA 1.0000
+/BM /Normal
+/AIS false
+>>
+>>
+endobj
+43 0 obj
+<</Type /Outlines
+/Count 0
+>>
+endobj
+45 0 obj
+<</Type /Metadata
+/Subtype /XML
+/Length 673
+>>
+stream
+<?xpacket begin="" id="W5M0MpCehiHzreSzNTczkc9d"?><x:xmpmeta x:xmptk="NitroPro 9.5" xmlns:x="adobe:ns:meta/"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:pdfaExtension="http://www.aiim.org/pdfa/ns/extension/" xmlns:pdfaProperty="http://www.aiim.org/pdfa/ns/property#" xmlns:pdfaSchema="http://www.aiim.org/pdfa/ns/schema#" xmlns:pdfaid="http://www.aiim.org/pdfa/ns/id/" xmlns:xmp="http://ns.adobe.com/xap/1.0/"><xmp:ModifyDate>2018-03-05T04:57:58+07:00</xmp:ModifyDate>
+</rdf:Description>
+</rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="w"?>
+endstream
 endobj
 xref
-0 42
-0000000000 65535 f 
-0000000015 00000 n 
-0000000315 00000 n 
-0000166342 00000 n 
-0000000445 00000 n 
-0000000521 00000 n 
-0000000609 00000 n 
-0000151484 00000 n 
-0000151509 00000 n 
-0000151723 00000 n 
-0000152048 00000 n 
-0000152374 00000 n 
-0000152989 00000 n 
-0000153604 00000 n 
-0000154219 00000 n 
-0000154834 00000 n 
-0000155449 00000 n 
-0000155775 00000 n 
-0000156390 00000 n 
-0000156716 00000 n 
-0000157331 00000 n 
-0000157946 00000 n 
-0000158561 00000 n 
-0000158887 00000 n 
-0000159503 00000 n 
-0000160118 00000 n 
-0000160444 00000 n 
-0000161059 00000 n 
-0000161674 00000 n 
-0000162000 00000 n 
-0000162326 00000 n 
-0000162652 00000 n 
-0000163267 00000 n 
-0000163882 00000 n 
-0000164497 00000 n 
-0000165112 00000 n 
-0000165727 00000 n 
-0000167629 00000 n 
-0000166513 00000 n 
-0000166553 00000 n 
-0000167384 00000 n 
-0000167486 00000 n 
+0 46
+0000000000 65535 f
+0000000016 00000 n
+0000000266 00000 n
+0000000407 00000 n
+0000000534 00000 n
+0000000595 00000 n
+0000000663 00000 n
+0000000000 00000 f
+0000151527 00000 n
+0000151706 00000 n
+0000151960 00000 n
+0000152217 00000 n
+0000152677 00000 n
+0000153137 00000 n
+0000153598 00000 n
+0000154059 00000 n
+0000154520 00000 n
+0000154778 00000 n
+0000155239 00000 n
+0000155497 00000 n
+0000155958 00000 n
+0000156419 00000 n
+0000156880 00000 n
+0000157138 00000 n
+0000157600 00000 n
+0000158061 00000 n
+0000158319 00000 n
+0000158780 00000 n
+0000159241 00000 n
+0000159499 00000 n
+0000159757 00000 n
+0000160017 00000 n
+0000160480 00000 n
+0000160943 00000 n
+0000161406 00000 n
+0000161869 00000 n
+0000162332 00000 n
+0000162795 00000 n
+0000162872 00000 n
+0000162912 00000 n
+0000000000 00000 f
+0000163598 00000 n
+0000000000 00000 f
+0000163685 00000 n
+0000000000 00000 f
+0000163736 00000 n
 trailer
-<< 
-   /Size 42
-   /Root 2 0 R
-   /Info 1 0 R
+<</ID [<4C95187CD942B6ACE46FE3556084F38C> <4C95187CD942B6ACE46FE3556084F38C>]
+/Root 2 0 R
+/Info 1 0 R
+/Size 46
 >>
 startxref
-167726
+164499
 %%EOF

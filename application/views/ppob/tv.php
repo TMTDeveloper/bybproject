@@ -29,8 +29,8 @@
 
     <form class="form-horizontal">
     <div class="box-body">
-    
-        <div class="form-group">
+    Under Construction
+        <!-- <div class="form-group">
             <label class="col-sm-2 control-label">Product ID</label>
             <div class="col-sm-10">
             <select class="form-control" style="width: 70%;">
@@ -59,7 +59,7 @@
             <div class="col-sm-10">
             <input type="text" class="form-control" id="inputKodeArea" placeholder="00000"  style="width: 70%;">
             </div>
-        </div>
+        </div> -->
         
     </div>
     <!-- /.box-body -->

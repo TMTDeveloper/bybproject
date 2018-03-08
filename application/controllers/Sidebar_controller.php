@@ -3,6 +3,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Sidebar_controller extends CI_Controller {
 
+	public function __construct() {
+        parent::__construct();
+        $st=$this->session->userdata('status');
+        if ($st!=='login'){
+            header('location:'.base_url());
+        }
+	}
+
 	// side bar menu PPOB *****************************************
 	public function telkom()
     {

@@ -1,5 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 class Model extends CI_Model {
+    
     public function select($table)
     {
         return $this->db->get($table);
@@ -29,18 +30,20 @@ class Model extends CI_Model {
             foreach ($login->result() as $key) {
             $sess['status']='login';
             $sess['company']=$key->COMPANY_ID;
-            // $sess['cucur']=$r;
             $this->session->set_userdata($sess);     
             // print_r($sess); // seharusnya Array ( [status] => login [company] => BYB ) 1
+            // echo "<pre>";
+            // print_r($r);
+            // echo "</pre>";
             // exit;
         }
-        header('location:'.base_url().'Premain_controller');
-    }else {
-        header('location:'.base_url().'Welcome');
+            header('location:'.base_url().'Premain_controller');
+        }else {
+            header('location:'.base_url().'Welcome');
+        }
     }
-}
 
-public function c_phone($s)
+    public function c_phone($s)
         {
             $search=$s;
             $c_phone=$this->db->get_where('m_customer', array ('CUSTOMER_PHONE'=>$search));
@@ -74,15 +77,14 @@ public function c_phone($s)
                     // exit;
                 $this->Model->insert('t_customer_token',$data);
                 // memasukan record ke dalam database, table 't_customer_token'
+                }
+                header('location:'.base_url().'home_controller');
+            }else {
+                header('location:'.base_url().'Premain_controller');
             }
-            header('location:'.base_url().'home_controller');
-        }else {
-            header('location:'.base_url().'Premain_controller');
         }
-    }
 
-public function data($d){
-      $rows = $this->db->query("SELECT * FROM m_customer where CUSTOMER_PHONE=".$this->session->id."'")->row_array();            
-    
-    }
+    public function data($d){
+        $rows = $this->db->query("SELECT * FROM m_customer where CUSTOMER_PHONE=".$this->session->id."'")->row_array();            
+        }
 }
