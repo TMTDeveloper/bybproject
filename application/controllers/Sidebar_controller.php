@@ -12,6 +12,12 @@ class Sidebar_controller extends CI_Controller {
 	}
 
 	// side bar menu PPOB *****************************************
+	public function modal()
+    {
+		$data['content']='ppob/tagihan';
+		$data['sidebar']='sidebar';
+		$this->load->view('main',$data);
+	}
 	public function telkom()
     {
 		$productIDS = $this->db->query("SELECT * FROM m_list_produk WHERE SUBKATEGORI_ID = 'TELKOM'")->result();

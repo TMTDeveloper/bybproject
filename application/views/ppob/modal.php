@@ -27,26 +27,26 @@
         </div> -->      
     </div>
 
-    <form action="<?php echo base_url() ?>Inpay/cekTagihan" method="post" class="form-horizontal">
+    <form action="#" method="post" class="form-horizontal">
     <div class="box-body">
 
-        <input name="subKategori" id="subKategori" value="TELEPON" hidden> <!-- mencocokan dengan xresponecode -->
+    <form class="form-horizontal">
         <div class="form-group">
-            <label class="col-sm-2 control-label">Product ID</label>
+            <label class="control-label col-sm-2" for="nama">No Referensi:</label>
             <div class="col-sm-10">
-            <select class="form-control" name="kodeProduct" id="kodeProduct" style="width: 70%;">
-            <option selected="selected">Pilih</option>
-            <?php foreach($product_ids as $product) { ?>
-                <option value="<?php echo $product->PRODUCT_CODE; ?>"><?php echo $product->PRODUCT_ID; ?> <!-- valuenya menghasilkan Product Code dan yang ditampilkan adalah Product ID -->
-            <?php } ?>
-            </select>
+                <input type="email" class="form-control" id="nama" value="<?php echo $mNoref ?>" disabled>
             </div>
         </div>
-
         <div class="form-group">
-            <label for="idPelanggan" class="col-sm-2 control-label">ID Pelanggan</label>
+            <label class="control-label col-sm-2" for="tagihan">Nominal:</label>
             <div class="col-sm-10">
-            <input type="text" class="form-control" name="idPelanggan" id="idPelanggan" placeholder="Nomor Tagihan"  style="width: 70%;" autocomplete="off">
+                <input type="password" class="form-control" id="tagihan" value="<?php echo $mNominal ?>" disabled>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="tagihan">Nama Pelanggan:</label>
+            <div class="col-sm-10">
+                <input type="password" class="form-control" id="tagihan" value="<?php echo $mNamapelanggan ?>" disabled>
             </div>
         </div>
         
@@ -78,4 +78,3 @@
 <!-- /.content -->
 </div>
 <!-- /.content-wrapper -->
-

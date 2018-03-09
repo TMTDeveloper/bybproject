@@ -13,32 +13,35 @@ class Inpay extends CI_Controller {
 
     public function cekTagihan()
     {
-        $j1=$this->input->post('subKategori');
-        $j2=$this->input->post('kodeProduct');
-        $j3=$this->input->post('idPelanggan');
-        $this->Cmodel->inquery($j1,$j2,$j3);
+        $subKategori=$this->input->post('subKategori');
+        $kodeProduct=$this->input->post('kodeProduct');
+        $idPelanggan1=$this->input->post('idPelanggan');
+        
+        // echo "<pre>";
+        // var_dump($subKategori);
+        // var_dump($kodeProduct);
+        // var_dump($idPelanggan1);
+        // echo "</pre>";
+        // exit;
+
+        $this->Cmodel->inquery($subKategori,$kodeProduct,$idPelanggan1);
+
+        
     }
 
     public function cekTagihanPLN()
     {
-        $j2=$this->input->post('kodeProduct');
-        
-        if($j2=='BMSPLNNONH'){
-            $j1='NONTAGLIST';
+        $kodeProduct=$this->input->post('kodeProduct');        
+        if($kodeProduct=='BMSPLNNONH'){
+            $subKategori='NONTAGLIST';
         }
-        if($j2=='BMSPLNPRAH'){
-            $j1='PLNPASCABAYAR';
-        }
+        if($kodeProduct=='BMSPLNPRAH'){
+            $subKategori='PLNPASCABAYAR';
+        }        
+        $idPelanggan1=$this->input->post('idPelanggan');
+
         
-        $j3=$this->input->post('idPelanggan');
 
-        // echo "<pre>";
-        // var_dump($j1);
-        // var_dump($j2);
-        // var_dump($j3);
-        // echo "</pre>";
-        // exit;
-
-        $this->Cmodel->inquery($j1,$j2,$j3);
+        $this->Cmodel->inquery($subKategori,$kodeProduct,$idPelanggan1);
     }
 }

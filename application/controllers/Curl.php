@@ -50,9 +50,20 @@ class Curl extends CI_Controller {
         // tutup curl
         curl_close($ch);
         // cek tagihan
-        echo "<pre>";
-        var_dump($r);
-        echo "</pre>";
+        
+        // echo "<pre>";
+        // var_dump($r);
+        // echo "</pre>";
+        // exit;
+        
+        $sess['mNoref'] = $r['DATA'][0]['nomerReferensi1'];
+        $sess['mNominal'] = $r['DATA'][0]['nominal'];
+        $sess['mNamapelanggan'] = $r['DATA'][0]['namaPelanggan'];
+        $this->session->set_userdata($sess);
+
+        // var_dump($sess);
+        // exit;
+        header('location:'.base_url().'Sidebar_controller/modal');
     }
 
 }
