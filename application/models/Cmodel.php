@@ -36,36 +36,32 @@ class Cmodel extends CI_Model {
         // tutup curl
         curl_close($ch);
 
-        
-        
-        $sess['mNoref'] = $r['DATA'][0]['nomerReferensi1'];
-        $sess['mNominal'] = $r['DATA'][0]['nominal'];
-        $sess['mNamapelanggan'] = $r['DATA'][0]['namaPelanggan'];
-        $this->session->set_userdata($sess);
+        // echo "<pre>";
+        // var_dump($r);
+        // echo "</pre>";
+        // exit;
+// *****************************************************************
 
-        // cek tagihan
-        echo "<pre>";
-        
-        echo "hasil parsing";
-        echo "<br>";
-        var_dump($subKategori);
-        var_dump($kodeProduct);
-        var_dump($idPelanggan1);
-        
-        echo "<br>";
-        echo "hasil curl";
-        echo "<br>";
-        var_dump($r);
+        if($r==NULL){
+            echo "<script>alert('Tidak Dapat Terkoneksi ke Server');
+            window.location=history.go(-1);
+            </script>";
+            exit;
+            }
+        if($r['STATUS']=='OK'){
+            $sess['mNoref'] = $r['DATA'][0]['nomerReferensi1'];
+            $sess['mNominal'] = $r['DATA'][0]['nominal'];
+            $sess['mNamapelanggan'] = $r['DATA'][0]['namaPelanggan'];
+            $this->session->set_userdata($sess);
 
-        echo "<br>";
-        echo "yang buat ditampilin";
-        echo "<br>";
-        var_dump($sess);
-        
-        echo "</pre>";
-        exit;
-
-        header('location:'.base_url().'Sidebar_controller/modal');
+            header('location:'.base_url().'home_controller/tagihan');
+        }
+        else {
+            echo "<script>alert('Data Tidak Dapat Ditemukan');
+            window.location=history.go(-1);
+            </script>";
+            exit;            
+        }
     
     }
     

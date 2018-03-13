@@ -8,7 +8,7 @@
     </h1>
     <ol class="breadcrumb">
     <li><a href="#"><i class="fa fa-credit-card"></i> PPOB</a></li>
-    <li><a href="#">Telkom</a></li>
+    <li><a href="#">Tagihan</a></li>
     <!-- <li class="active">Blank page</li> -->
     </ol>
 </section>
@@ -32,17 +32,17 @@
 
         <label>No Referensi</label>
         <div class="input-group">
-            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <span class="input-group-addon"><i class="glyphicon glyphicon-barcode"></i></span>
             <input type="text" class="form-control" value="<?php echo $mNoref ?>" disabled>
         </div>
         <label>Nominal</label>
         <div class="input-group">
-            <span class="input-group-addon"><i class="glyphicon glyphicon-barcode"></i></span>
+            <span class="input-group-addon"><i class="fa fa-credit-card"></i></span>
             <input type="text" class="form-control" value="<?php echo $mNominal ?>" disabled>
         </div>
         <label>Nama Pelanggan</label>
         <div class="input-group">
-            <span class="input-group-addon"><i class="glyphicon glyphicon-phone"></i></span>
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
             <input type="text" class="form-control" value="<?php echo $mNamapelanggan ?>" disabled>
         </div>
             
@@ -54,10 +54,9 @@
     <div class="box-footer">
     <div class="row">
 
-        <div class="col-xs-2"></div>
         <div class="col-xs-2">
         <!-- <button type="submit" class="btn btn-info" data-toggle="modal" data-target="#modalInquiry">Modal</button> -->
-        <button type="submit" class="btn btn-info">OK</button>
+        <button type="submit" class="btn btn-info">Lanjut ke Pembayaran</button>
         </div>
 
     </div>

@@ -16,13 +16,13 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="<?php echo base_url('Sidebar_controller/telkom') ?>"><i class="fa fa-circle-o"></i> Telkom</a></li>
-            <li><a href="<?php echo base_url('Sidebar_controller/pascabayar') ?>"><i class="fa fa-circle-o"></i> Pascabayar</a></li>
-            <li><a href="<?php echo base_url('Sidebar_controller/tv') ?>"><i class="fa fa-circle-o"></i> TV</a></li>
-            <li><a href="<?php echo base_url('Sidebar_controller/finance') ?>"><i class="fa fa-circle-o"></i> Finance</a></li>
-            <li><a href="<?php echo base_url('Sidebar_controller/pdam') ?>"><i class="fa fa-circle-o"></i> PDAM</a></li>
-            <li><a href="<?php echo base_url('Sidebar_controller/asuransi') ?>"><i class="fa fa-circle-o"></i> Asuransi</a></li>
-            <li><a href="<?php echo base_url('Sidebar_controller/pln') ?>"><i class="fa fa-circle-o"></i> PLN</a></li>
+            <li><a href="<?php echo base_url('home_controller/telkom') ?>"><i class="fa fa-circle-o"></i> Telkom</a></li>
+            <li><a href="<?php echo base_url('home_controller/pascabayar') ?>"><i class="fa fa-circle-o"></i> Pascabayar</a></li>
+            <li><a href="<?php echo base_url('home_controller/tv') ?>"><i class="fa fa-circle-o"></i> TV</a></li>
+            <li><a href="<?php echo base_url('home_controller/finance') ?>"><i class="fa fa-circle-o"></i> Finance</a></li>
+            <li><a href="<?php echo base_url('home_controller/pdam') ?>"><i class="fa fa-circle-o"></i> PDAM</a></li>
+            <li><a href="<?php echo base_url('home_controller/asuransi') ?>"><i class="fa fa-circle-o"></i> Asuransi</a></li>
+            <li><a href="<?php echo base_url('home_controller/pln') ?>"><i class="fa fa-circle-o"></i> PLN</a></li>
           </ul>
         </li>
 
@@ -34,10 +34,10 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="<?php echo base_url('Sidebar_controller/pulsa') ?>"><i class="fa fa-circle-o"></i> Pulsa</a></li>
-            <li><a href="<?php echo base_url('Sidebar_controller/data') ?>"><i class="fa fa-circle-o"></i> Data</a></li>
-            <li><a href="<?php echo base_url('Sidebar_controller/vouchergames') ?>"><i class="fa fa-circle-o"></i> Voucher Games</a></li>
-            <li><a href="<?php echo base_url('Sidebar_controller/tokenpln') ?>"><i class="fa fa-circle-o"></i> Token PLN</a></li>
+            <li><a href="<?php echo base_url('home_controller/pulsa') ?>"><i class="fa fa-circle-o"></i> Pulsa</a></li>
+            <li><a href="<?php echo base_url('home_controller/data') ?>"><i class="fa fa-circle-o"></i> Data</a></li>
+            <li><a href="<?php echo base_url('home_controller/vouchergames') ?>"><i class="fa fa-circle-o"></i> Voucher Games</a></li>
+            <li><a href="<?php echo base_url('home_controller/tokenpln') ?>"><i class="fa fa-circle-o"></i> Token PLN</a></li>
           </ul>
         </li>
 
@@ -49,9 +49,9 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="<?php echo base_url('Sidebar_controller/pesawat') ?>"><i class="fa fa-circle-o"></i> Pesawat</a></li>
-            <li><a href="<?php echo base_url('Sidebar_controller/kereta') ?>"><i class="fa fa-circle-o"></i> Kereta</a></li>
-            <li><a href="<?php echo base_url('Sidebar_controller/hotel') ?>"><i class="fa fa-circle-o"></i> Hotel</a></li>
+            <li><a href="<?php echo base_url('home_controller/pesawat') ?>"><i class="fa fa-circle-o"></i> Pesawat</a></li>
+            <li><a href="<?php echo base_url('home_controller/kereta') ?>"><i class="fa fa-circle-o"></i> Kereta</a></li>
+            <li><a href="<?php echo base_url('home_controller/hotel') ?>"><i class="fa fa-circle-o"></i> Hotel</a></li>
           </ul>
         </li>
        

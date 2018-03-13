@@ -50,7 +50,7 @@
 	</div>
 
 	<div class="w3footeragile">
-		<p> &copy; 2018 MIT. All Rights Reserved
+		<p> &copy; 2018 X-PAY. All Rights Reserved
 			<br>
 			<i class="fa fa-phone-square"></i> Call center: 0000-xxxxxxxx</p>
 	</div>
