@@ -31,7 +31,7 @@ class Register_controller extends CI_Controller {
 		// exit();
 
 		$this->Model->insert('m_customer',$data);
-		header('location:'.base_url().'Premain_controller');
+		header('location:'.base_url().'home_controller');
 	}
 					
 }

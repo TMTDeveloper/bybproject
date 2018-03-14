@@ -58,7 +58,7 @@
 
         <div class="col-xs-2"></div>
         <div class="col-xs-2">
-        <!-- <button type="submit" class="btn btn-info" data-toggle="modal" data-target="#modalInquiry">Modal</button> -->
+        <!-- <button type="submit" class="btn btn-info" data-toggle="modal" data-target="#myModal">Modal</button> -->
         <button type="submit" class="btn btn-info">OK</button>
         </div>
 

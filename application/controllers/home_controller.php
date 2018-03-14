@@ -13,22 +13,27 @@ class home_controller extends CI_Controller {
 
 	public function index()
 	{
+		$data['content']='prehome';
+        $this->load->view('premain',$data);
+	}
+	public function home()
+	{
 		$sess = $this->session->userdata;
-		foreach ($sess as $key => $value ) {
+		foreach ($sess as $key => $value ) 
+		{
 			$data[$key]= $value;
 		}
 		$data['content']='home';
 		$data['sidebar']='sidebar';
         $this->load->view('main',$data);
 	}
-
      public function showdata()
     {        
         $d=$this->input->post('data');
         $this->Model->data($d);
     }
     
-    // side bar menu PPOB *****************************************
+// side bar menu PPOB *****************************************
 	public function tagihan()
     {
 		$sess = $this->session->userdata;

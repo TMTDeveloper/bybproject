@@ -5,22 +5,27 @@ class Model extends CI_Model {
     {
         return $this->db->get($table);
     }
+
     public function selectwhere($table,$data)
     {
         return $this->db->get_where($table,$data);
     }
+
     function delete($table,$data)
     {
         $this->db->delete($table,$data);
     }
+
     function update($table,$data,$key)
     {
         $this->db->update($table,$data,$key);
     }
+
     function insert($table,$data)
     {
         $this->db->insert($table,$data);
     }
+
     public function login($u,$p)
     {
         $username=$u;
@@ -37,7 +42,7 @@ class Model extends CI_Model {
             // echo "</pre>";
             // exit;
         }
-            header('location:'.base_url().'Premain_controller');
+            header('location:'.base_url().'home_controller');
         }else {
             header('location:'.base_url().'Welcome');
         }
@@ -78,13 +83,16 @@ class Model extends CI_Model {
                 $this->Model->insert('t_customer_token',$data);
                 // memasukan record ke dalam database, table 't_customer_token'
                 }
-                header('location:'.base_url().'home_controller');
+                header('location:'.base_url().'home_controller/home');
             }else {
                 header('location:'.base_url().'Premain_controller');
             }
         }
 
-    public function data($d){
+    public function data($d)
+    {
         $rows = $this->db->query("SELECT * FROM m_customer where CUSTOMER_PHONE=".$this->session->id."'")->row_array();            
-        }
+    }
+
+    
 }

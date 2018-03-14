@@ -20,7 +20,7 @@
     <div class="box">
 
     <div class="box-header with-border">
-        <h3 class="box-title" name="subKategori" id="subKategori" value="TELEPON">Telkom</h3>
+        <h3 class="box-title" name="subKategori" id="subKategori" value="TELEPON">Tagihan</h3>
         <!-- <div class="box-tools pull-right">
         <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
         <button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove"><i class="fa fa-times"></i></button>
@@ -45,7 +45,7 @@
             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
             <input type="text" class="form-control" value="<?php echo $mNamapelanggan ?>" disabled>
         </div>
-            
+      
     </form>
     <!-- /.form -->
     </div>
@@ -55,8 +55,7 @@
     <div class="row">
 
         <div class="col-xs-2">
-        <!-- <button type="submit" class="btn btn-info" data-toggle="modal" data-target="#modalInquiry">Modal</button> -->
-        <button type="submit" class="btn btn-info">Lanjut ke Pembayaran</button>
+        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Lanjut Ke Pembayaran</button>
         </div>
 
     </div>

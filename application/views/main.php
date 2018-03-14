@@ -41,7 +41,7 @@
 
   <header class="main-header">
     <!-- Logo -->
-    <a href="<?php echo base_url('home_controller') ?>" class="logo">
+    <a href="<?php echo base_url('home_controller/home') ?>" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>BYB</b></span>
       <!-- logo for regular state and mobile devices -->
@@ -148,5 +148,25 @@
     $('.sidebar-menu').tree()
   })
 </script>
+
+<!-- <script>
+//  Inisiasi awal penggunaan jQuery
+ $(document).ready(function(){
+  //Pertama sembunyikan elemen class gambar
+        $('.sidebar-menu').hide();        
+
+  //Ketika elemen class tampil di klik maka elemen class gambar tampil
+        $('.masukHome').click(function(){
+   $('.sidebar-menu').show();
+        });
+
+  //Ketika elemen class sembunyi di klik maka elemen class gambar sembunyi
+        $('.keluarHome').click(function(){
+   //Sembunyikan elemen class gambar
+   $('.sidebar-menu').hide();        
+        });
+  });
+ </script> -->
+
 </body>
 </html>

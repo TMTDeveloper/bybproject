@@ -20,7 +20,9 @@
     <div class="box">
     <div class="box-header with-border">
         <h3 class="box-title">Data Customer</h3>
-        <a href="<?php echo base_url('Premain_controller') ?>" class="btn btn-danger pull-right">Customer Baru</a>
+        <!-- <a href="#" class="tampil btn btn-success" value="Tampil">tampil</a>
+        <a href="#" class="sembunyi btn btn-info" value="Sembunyi">sembunyi</a> -->
+        <a href="<?php echo base_url('home_controller') ?>" class="btn btn-danger pull-right">Customer Baru</a>
         <!-- <div class="box-tools pull-right">
         <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
         <button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove"><i class="fa fa-times"></i></button>
