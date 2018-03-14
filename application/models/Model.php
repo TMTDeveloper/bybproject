@@ -94,5 +94,10 @@ class Model extends CI_Model {
         $rows = $this->db->query("SELECT * FROM m_customer where CUSTOMER_PHONE=".$this->session->id."'")->row_array();            
     }
 
+    public function getSubtv($PRODUCT_ID)
+    {
+        $query = $this->db->get_where('m_list_produk', array('PRODUCT_ID' => $PRODUCT_ID));
+        return $query->result();
+    }
     
 }

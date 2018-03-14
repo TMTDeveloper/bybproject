@@ -148,7 +148,36 @@
     $('.sidebar-menu').tree()
   })
 </script>
+<script>
+  $(document).ready(function () {
+    $('#kodeProduct').on('change',function(){
+      var PRODUCT_ID = $(this).val();
+      if(PRODUCT_ID == '')
+      {
+        $('#subkodeProduct').prop('disabled', true);
+      }
+      else
+      {
+        $('#subkodeProduct').prop('disabled', false);
+        $.ajax({
+          url: "<?php echo base_url() ?>home_controller/subtv",
+          type: "POST",
+          data: {'PRODUCT_ID' : PRODUCT_ID},
+          dataType: 'json',
+          success: function(data){
+            $('#subkodeProduct').html(data);
+          },
+          error: function(){
+            alert('Ada Kesalahan');
+          }
+        });
+      }
+    });
+  });
+</script>
 
+
+<!-- script menampilkan dan menghilangkan -->
 <!-- <script>
 //  Inisiasi awal penggunaan jQuery
  $(document).ready(function(){

@@ -35,7 +35,7 @@
             <label class="col-sm-2 control-label">Product ID</label>
             <div class="col-sm-10">
             <select class="form-control" name="kodeProduct" id="kodeProduct" style="width: 70%;">
-            <option selected="selected">Pilih</option>
+            <option value="">Pilih</option>
             <?php foreach($product_ids as $product) { ?>
                 <option value="<?php echo $product->PRODUCT_CODE; ?>"><?php echo $product->PRODUCT_ID; ?> <!-- valuenya menghasilkan Product Code dan yang ditampilkan adalah Product ID -->
             <?php } ?>

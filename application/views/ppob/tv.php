@@ -20,46 +20,44 @@
     <div class="box">
 
     <div class="box-header with-border">
-        <h3 class="box-title">TV</h3>
+        <h3 class="box-title" name="subKategori" id="subKategori" value="TV">TV</h3>
         <!-- <div class="box-tools pull-right">
         <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
         <button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove"><i class="fa fa-times"></i></button>
         </div> -->      
     </div>
 
-    <form class="form-horizontal">
+    <form action="<?php echo base_url() ?>Inpay/cekTagihan" method="post" class="form-horizontal">
     <div class="box-body">
-    Under Construction
-        <!-- <div class="form-group">
+
+        <input name="subKategori" id="subKategori" value="TV" hidden> <!-- mencocokan dengan xresponecode -->
+        <div class="form-group">
             <label class="col-sm-2 control-label">Product ID</label>
             <div class="col-sm-10">
-            <select class="form-control" style="width: 70%;">
-            <option selected="selected">Pilih</option>
+            <select class="form-control" name="kodeProduct" id="kodeProduct" style="width: 70%;">
+            <option value="">Pilih</option>
             <?php foreach($product_ids as $product) { ?>
-                <option value="<?php echo $product->PRODUCT_ID; ?>"><?php echo $product->PRODUCT_ID; ?></option>
+                <option value="<?php echo $product->PRODUCT_ID; ?>"><?php echo $product->PRODUCT_ID; ?> <!-- valuenya menghasilkan Product Code dan yang ditampilkan adalah Product ID -->
             <?php } ?>
             </select>
             </div>
         </div>
 
         <div class="form-group">
-            <label class="col-sm-2 control-label">Sub-Product ID</label>
+            <label class="col-sm-2 control-label">Sub Product ID</label>
             <div class="col-sm-10">
-            <select class="form-control" style="width: 70%;">
-            <option selected="selected">Pilih</option>
-            <option>List 1</option>
-            <option>List 2</option>
-            <option>List 3</option>
+            <select class="form-control" name="subkodeProduct" id="subkodeProduct" style="width: 70%;" disabled="">
+            <option value="">Pilih</option>
             </select>
             </div>
         </div>
 
         <div class="form-group">
-            <label for="inputKodeArea" class="col-sm-2 control-label">ID Pelanggan</label>
+            <label for="idPelanggan" class="col-sm-2 control-label">ID Pelanggan</label>
             <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputKodeArea" placeholder="00000"  style="width: 70%;">
+            <input type="text" class="form-control" name="idPelanggan" id="idPelanggan" placeholder="Nomor Tagihan"  style="width: 70%;" autocomplete="off">
             </div>
-        </div> -->
+        </div>
         
     </div>
     <!-- /.box-body -->
@@ -68,12 +66,8 @@
     <div class="row">
 
         <div class="col-xs-2"></div>
-
         <div class="col-xs-2">
-        <button type="submit" class="btn btn-default">reset</button>
-        </div>
-
-        <div class="col-xs-1">
+        <!-- <button type="submit" class="btn btn-info" data-toggle="modal" data-target="#myModal">Modal</button> -->
         <button type="submit" class="btn btn-info">OK</button>
         </div>
 
@@ -82,6 +76,10 @@
     </div>
     <!-- /.box-footer-->
 
+
+    </form>
+    <!-- /.form -->
+
     </div>
     <!-- /.box -->
 
@@ -89,3 +87,4 @@
 <!-- /.content -->
 </div>
 <!-- /.content-wrapper -->
+
