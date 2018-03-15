@@ -73,20 +73,20 @@ class home_controller extends CI_Controller {
 		$data['sidebar']='sidebar';
 		$this->load->view('main',$data);
 	}
-	public function subtv()
-	{
-		$PRODUCT_ID = $this->input->post('PRODUCT_ID'); // kiriman dari ajax
-		$subKategories = $this->Model->getSubtv($PRODUCT_ID);
-		if(count($subKategories)>0)
+		public function subtv()
 		{
-			$selectbox = '';
-			$selectbox .= '<option value="">Pilih</option>';
-			foreach ($subKategories as $subKategori){
-				$selectbox .='<option value"'.$subKategori->PRODUCT_CODE.'">'.$subKategori->SUBPRODUCT_ID.'</option>';
+			$PRODUCT_ID = $this->input->post('PRODUCT_ID'); // kiriman dari ajax
+			$subKategories = $this->Model->getSubtv($PRODUCT_ID);
+			if(count($subKategories)>0)
+			{
+				$selectbox = '';
+				$selectbox .= '<option value="">Pilih</option>';
+				foreach ($subKategories as $subKategori){
+					$selectbox .='<option value="'.$subKategori->PRODUCT_CODE.'">'.$subKategori->SUBPRODUCT_ID.'</option>';
+				}
+				echo json_encode($selectbox);
 			}
-			echo json_encode($selectbox);
 		}
-	}
 
 	public function finance()
     {

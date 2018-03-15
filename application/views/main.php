@@ -148,24 +148,26 @@
     $('.sidebar-menu').tree()
   })
 </script>
-<script>
+
+<!-- script ajax untuk chain dropdown PPOB TV -->
+<script> 
   $(document).ready(function () {
-    $('#kodeProduct').on('change',function(){
+    $('#kodeProducts').on('change',function(){
       var PRODUCT_ID = $(this).val();
-      if(PRODUCT_ID == '')
+      if(PRODUCT_ID == '') // jika value PRODUCT_ID kosong maka...
       {
-        $('#subkodeProduct').prop('disabled', true);
+        $('#kodeProduct').prop('disabled', true); // set menjadi disable
       }
       else
       {
-        $('#subkodeProduct').prop('disabled', false);
+        $('#kodeProduct').prop('disabled', false); // hilangkan disable isikan dengan ajax
         $.ajax({
           url: "<?php echo base_url() ?>home_controller/subtv",
           type: "POST",
           data: {'PRODUCT_ID' : PRODUCT_ID},
           dataType: 'json',
           success: function(data){
-            $('#subkodeProduct').html(data);
+            $('#kodeProduct').html(data);
           },
           error: function(){
             alert('Ada Kesalahan');
