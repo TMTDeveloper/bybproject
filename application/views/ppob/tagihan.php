@@ -20,34 +20,32 @@
     <div class="box">
 
     <div class="box-header with-border">
-        <h3 class="box-title" name="subKategori" id="subKategori" value="TELEPON">Tagihan</h3>
+        <h3 class="box-title">Tagihan</h3>
         <!-- <div class="box-tools pull-right">
         <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
         <button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove"><i class="fa fa-times"></i></button>
         </div> -->      
     </div>
 
+    <form action="<?php echo base_url() ?>Inpay/payment" method="post">
     <div class="box-body">
-    <form action="#" method="post" class>
-
-        <label>No Referensi</label>
-        <div class="input-group">
-            <span class="input-group-addon"><i class="glyphicon glyphicon-barcode"></i></span>
-            <input type="text" class="form-control" value="<?php echo $mNoref ?>" disabled>
-        </div>
+        
         <label>Nominal</label>
         <div class="input-group">
             <span class="input-group-addon"><i class="fa fa-credit-card"></i></span>
-            <input type="text" class="form-control" value="<?php echo $mNominal ?>" disabled>
+            <input class="form-control" name="nominal" id="nominal" value="<?php echo $mNominal ?>" readonly>
         </div>
         <label>Nama Pelanggan</label>
         <div class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-            <input type="text" class="form-control" value="<?php echo $mNamapelanggan ?>" disabled>
+            <input type="text" class="form-control" name="namaPelanggan" id="namaPelanggan" value="<?php echo $mNamapelanggan ?>" readonly>
         </div>
-      
-    </form>
-    <!-- /.form -->
+        <!-- <label>No Referensi</label> -->
+        <!-- <div class="input-group" style="visibility: hidden">
+            <span class="input-group-addon" hidden><i class="glyphicon glyphicon-barcode"></i></span>
+            <input type="text" class="form-control" name="noReferensi" id="noReferensi" value="<?php echo $mNoref ?>" readonly>
+        </div> -->
+    
     </div>
     <!-- /.box-body -->
 
@@ -55,7 +53,8 @@
     <div class="row">
 
         <div class="col-xs-2">
-        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Lanjut Ke Pembayaran</button>
+        <button type="submit" class="btn btn-info">OK</button>
+        <!-- <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Lanjut Ke Pembayaran</button> -->
         </div>
 
     </div>

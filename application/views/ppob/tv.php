@@ -37,7 +37,7 @@
             <select class="form-control" name="kodeProducts" id="kodeProducts" style="width: 70%;">
             <option value="">Pilih</option>
             <?php foreach($product_ids as $product) { ?>
-                <option value="<?php echo $product->PRODUCT_ID; ?>"><?php echo $product->PRODUCT_ID; ?> <!-- valuenya menghasilkan Product Code dan yang ditampilkan adalah Product ID -->
+                <option value="<?php echo $product->PRODUCT_ID; ?>"><?php echo $product->PRODUCT_ID; ?> <!-- valuenya menghasilkan Product ID dan yang ditampilkan adalah Product ID -->
             <?php } ?>
             </select>
             </div>
@@ -47,7 +47,7 @@
             <label class="col-sm-2 control-label">Sub Product ID</label>
             <div class="col-sm-10">
             <select class="form-control" name="kodeProduct" id="kodeProduct" style="width: 70%;" disabled="">
-            <option value="">Pilih</option>
+            <option value="">Pilih</option> <!-- valuenya menghasilkan Product Code dan yang ditampilkan adalah Sub Product ID (AJAX) -->
             </select>
             </div>
         </div>
