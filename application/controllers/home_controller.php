@@ -47,6 +47,19 @@ class home_controller extends CI_Controller {
 		$data['sidebar']='sidebar';
 		$this->load->view('main',$data);
 	}
+	public function receipt()
+    {
+		// $sess = $this->session->userdata;
+		// foreach ($sess as $key => $value ) {
+		// 	$data[$key]= $value;
+		// }
+		// var_dump($sess);
+		// var_dump($data);
+		// exit;
+		$data['content']='ppob/receipt';
+		$data['sidebar']='sidebar';
+		$this->load->view('main',$data);
+	}
 	public function telkom()
     {
 		$productIDS = $this->db->query("SELECT * FROM m_list_produk WHERE SUBKATEGORI_ID = 'TELKOM'")->result();

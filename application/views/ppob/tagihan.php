@@ -53,7 +53,7 @@
     <div class="row">
 
         <div class="col-xs-2">
-        <button type="submit" class="btn btn-info">OK</button>
+        <button type="submit" class="btn btn-info">Lanjutkan Pembayaran</button>
         <!-- <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Lanjut Ke Pembayaran</button> -->
         </div>
 

@@ -101,6 +101,7 @@ class Cmodel extends CI_Model {
         curl_setopt($ch, CURLOPT_COOKIEFILE, "set" );
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true );
 
+
         // eksekusi
         $response = curl_exec($ch);
         // tampung
@@ -108,9 +109,34 @@ class Cmodel extends CI_Model {
         // tutup curl
         curl_close($ch);
 
-        echo "<pre>";
-        var_dump($r);
-        echo "</pre>";
-        exit;
+        // echo "<pre>";
+        // var_dump($r);
+        // echo "</pre>";
+        // exit;
+// *****************************************************************
+
+        if($r==NULL){
+            echo "<script>alert('Tidak Dapat Terkoneksi ke Server');
+            window.location=history.go(-1);
+            </script>";
+            exit;
+            }
+        if($r['STATUS']=='OK'){
+            // $sess['mSubkategori'] = $subKategori;
+            // $sess['mIdpelanggan'] = $idPelanggan1;
+            // $sess['mKodeproduct'] = $kodeProduct;
+            // $sess['mNoref'] = $r['DATA'][0]['ref1'];
+            // $sess['mNominal'] = $r['DATA'][0]['nominal'];
+            // $sess['mNamapelanggan'] = $r['DATA'][0]['namaPelanggan'];
+            // $this->session->set_userdata($sess);
+
+            header('location:'.base_url().'home_controller/receipt');
+        }
+        else {
+            echo "<script>alert('Data Tidak Dapat Ditemukan');
+            window.location=history.go(-1);
+            </script>";
+            exit;            
+        } 
     }
 }
